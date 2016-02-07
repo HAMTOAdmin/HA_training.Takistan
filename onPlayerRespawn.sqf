@@ -1,0 +1,1 @@
+[_this select 0] call bgr_fnc_ammoLoad;

@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ID="Arma3">
+	<Package ID="Missions">
+		<Container ID="OA_Base">
+			<Key ID="STR_HA_onLoadName">
+				<Original>
+				Oil checkpoint v1.0
+				</Original>
+				<English>
+				Oil checkpoint v1.0
+				</English>
+				<Russian>
+				Нефтяной блокпост v1.0
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_onLoadMission">
+				<Original>
+                                The assault on checkpoint by Russian forces in oil-producing region captured by ISIS fighters.
+				</Original>
+				<English>
+                                The assault on checkpoint by Russian forces in oil-producing region captured by ISIS fighters.
+				</English>
+				<Russian>
+				Штурм российскими войсками блокпоста в нефтедобывающем районе, захваченного боевиками ИГИЛ.
+				</Russian>
+			</Key>
+         		<Key ID="STR_HA_brif_credits">
+				<Original>
+				Credits
+				</Original>
+				<English>
+				Credits
+				</English>
+				<Russian>
+				Авторы
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_createdFor">
+				<Original>
+				Created specifically for
+				</Original>
+				<English>
+				Created specifically for
+				</English>
+				<Russian>
+				Сделано специально для
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_author">
+				<Original>
+				Author %1
+				</Original>
+				<English>
+				Author %1
+				</English>
+				<Russian>
+				Автор %1
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_creditsText">
+				<Original>
+				By %1 &lt;br/&gt;Template version from %2 &lt;br/&gt;Created specifically for Our-Army [USSR]www.our-army.su
+				</Original>
+				<English>
+				By %1 &lt;br/&gt;Template version from %2 &lt;br/&gt;Created specifically for Our-Army [USSR]www.our-army.su
+				</English>
+				<Russian>
+                                Автор %1 &lt;br/&gt;Версия шаблона от %2 &lt;br/&gt;Сделано для Нашей Армии [СССР] www.our-army.su
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_groups">
+				<Original>
+				Callsigns and weapons
+				</Original>
+				<English>
+				Callsigns and weapons
+				</English>
+				<Russian>
+				Позывные и вооружение
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_groupsLeader">
+				<Original>
+				%1, leader %2
+				</Original>
+				<English>
+				%1, leader %2
+				</English>
+				<Russian>
+				%1, командир %2
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_adm">
+				<Original>
+				Administration
+				</Original>
+				<English>
+				Administration
+				</English>
+				<Russian>
+				Условности
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_HQ">
+				<Original>
+				Execution
+				</Original>
+				<English>
+				Execution
+				</English>
+				<Russian>
+				Информация от Штаба
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_task">
+				<Original>
+				Mission
+				</Original>
+				<English>
+				Mission
+				</English>
+				<Russian>
+				Задача
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_sit">
+				<Original>
+				Situation
+				</Original>
+				<English>
+				Situation
+				</English>
+				<Russian>
+				Ситуация
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_brif_SquadLeader">
+				<Original>
+				Squad Leader
+				</Original>
+				<English>
+				Squad Leader
+				</English>
+				<Russian>
+				Командир
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_friz">
+				<Original>
+				Ingame brifing time
+				</Original>
+				<English>
+				Ingame brifing time
+				</English>
+				<Russian>
+				Брифинг в игре
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_disaibleAfterFriz">
+				<Original>
+				Disaible after ingame brifing
+				</Original>
+				<English>
+				Disaible after ingame brifing
+				</English>
+				<Russian>
+				Выключить после брифинга в игре
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_chat">
+				<Original>
+				Text Chat
+				</Original>
+				<English>
+				Text Chat
+				</English>
+				<Russian>
+				Текстовый чат
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_grass">
+				<Original>
+				Grass layer
+				</Original>
+				<English>
+				Grass layer
+				</English>
+				<Russian>
+				Уровень травы
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_time">
+				<Original>
+				Time of day
+				</Original>
+				<English>
+				Time of day
+				</English>
+				<Russian>
+				Время суток
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_weath">
+				<Original>
+				Weather
+				</Original>
+				<English>
+				Weather
+				</English>
+				<Russian>
+				Погода
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_fog">
+				<Original>
+				Fog
+				</Original>
+				<English>
+				Fog
+				</English>
+				<Russian>
+				Туман
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_def">
+				<Original>
+				By default
+				</Original>
+				<English>
+				By default
+				</English>
+				<Russian>
+				По умолчанию
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_no">
+				<Original>
+				None
+				</Original>
+				<English>
+				None
+				</English>
+				<Russian>
+				Нет
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_yes">
+				<Original>
+				yes
+				</Original>
+				<English>
+				yes
+				</English>
+				<Russian>
+				Да
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_vlow">
+				<Original>
+				Very low
+				</Original>
+				<English>
+				Very low
+				</English>
+				<Russian>
+				Очень низкий
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_low">
+				<Original>
+				Low
+				</Original>
+				<English>
+				Low
+				</English>
+				<Russian>
+				Низкий
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_midl">
+				<Original>
+				Middle
+				</Original>
+				<English>
+				Middle
+				</English>
+				<Russian>
+				Средний
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_high">
+				<Original>
+				High
+				</Original>
+				<English>
+				High
+				</English>
+				<Russian>
+				Сильный
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_vhigh">
+				<Original>
+				Very high
+				</Original>
+				<English>
+				Very high
+				</English>
+				<Russian>
+				Очень сильный
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_enabl">
+				<Original>
+				Enable
+				</Original>
+				<English>
+				Enable
+				</English>
+				<Russian>
+				Включен
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_2min">
+				<Original>
+				2 minutes
+				</Original>
+				<English>
+				2 minutes
+				</English>
+				<Russian>
+				2 минуты
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_5min">
+				<Original>
+				5 minutes
+				</Original>
+				<English>
+				5 minutes
+				</English>
+				<Russian>
+				5 минут
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_10min">
+				<Original>
+				10 minutes
+				</Original>
+				<English>
+				10 minutes
+				</English>
+				<Russian>
+				10 минут
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky0">
+				<Original>
+				Сlear
+				</Original>
+				<English>
+				Сlear
+				</English>
+				<Russian>
+				Ясно
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky1">
+				<Original>
+				Сlear (Light Winds)
+				</Original>
+				<English>
+				Сlear (Light Winds)
+				</English>
+				<Russian>
+				Ясно (Слабый ветер)
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky2">
+				<Original>
+				Сlear (Strong Winds)
+				</Original>
+				<English>
+				Сlear (Strong Winds)
+				</English>
+				<Russian>
+				Ясно (Ветренно)
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky3">
+				<Original>
+				Cloudiness
+				</Original>
+				<English>
+				Cloudiness
+				</English>
+				<Russian>
+				Облачно
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky4">
+				<Original>
+				Cloudiness (Light Winds)
+				</Original>
+				<English>
+				Cloudiness (Light Winds)
+				</English>
+				<Russian>
+				Облачно (Слабый ветер)
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky5">
+				<Original>
+				Cloudiness (Strong Winds)
+				</Original>
+				<English>
+				Cloudiness (Strong Winds)
+				</English>
+				<Russian>
+				Облачно (Ветренно)
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky6">
+				<Original>
+				Rain
+				</Original>
+				<English>
+				Rain
+				</English>
+				<Russian>
+				Дождь
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky7">
+				<Original>
+				Rain (Light Winds)
+				</Original>
+				<English>
+				Rain (Light Winds)
+				</English>
+				<Russian>
+				Дождь (Слабый ветер)
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky8">
+				<Original>
+				Rain (Strong Winds)
+				</Original>
+				<English>
+				Rain (Strong Winds)
+				</English>
+				<Russian>
+				Дождь (Ветренно)
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky9">
+				<Original>
+				Storm
+				</Original>
+				<English>
+				Storm
+				</English>
+				<Russian>
+				Гроза
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky10">
+				<Original>
+				Light Fog
+				</Original>
+				<English>
+				Light Fog
+				</English>
+				<Russian>
+				Слабый Туман
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_sky11">
+				<Original>
+				Heavy Fog
+				</Original>
+				<English>
+				Heavy Fog
+				</English>
+				<Russian>
+				Сильный Туман
+				</Russian>
+			</Key>
+        		<Key ID="STR_HA_param_ViewDistance">
+				<Original>
+				View distance
+				</Original>
+				<English>
+				View distance
+				</English>
+				<Russian>
+				Дальность прорисовки
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_enemyNV">
+				<Original>
+				All еnemy units have NV
+				</Original>
+				<English>
+				All еnemy units have NV
+				</English>
+				<Russian>
+				Выдать боевикам ПНВ
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_param_msvNV">
+				<Original>
+				All russian soldiers have NV
+				</Original>
+				<English>
+				All russian soldiers have NV
+				</English>
+				<Russian>
+				Выдать бойцам РФ ПНВ
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_min_remaining">
+				<Original>
+				minutes remaining
+				</Original>
+				<English>
+				minutes remaining
+				</English>
+				<Russian>
+				минут осталось до начала
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_dont_shoot">
+				<Original>
+				Do not shoot at brifing!
+				</Original>
+				<English>
+				Do not shoot at brifing!
+				</English>
+				<Russian>
+				Не стрелять на брифинге!
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_start_game">
+				<Original>
+				Start the Game! Go! Go! Go!
+				</Original>
+				<English>
+				Start the Game! Go! Go! Go!
+				</English>
+				<Russian>
+				Начало боевой операции!
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_my_squad">
+				<Original>
+				My squad
+				</Original>
+				<English>
+				My squad
+				</English>
+				<Russian>
+				Мой отряд
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_victory">
+				<Original>
+				Victory!
+				</Original>
+				<English>
+				Victory!
+				</English>
+				<Russian>
+				Победа!
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_End3_title">
+				<Original>
+				Mission failed!
+				</Original>
+				<English>
+				Mission failed!
+				</English>
+				<Russian>
+				Поражение!
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_fail">
+				<Original>
+				Fail!
+				</Original>
+				<English>
+				Fail!
+				</English>
+				<Russian>
+				Поражение!
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_End4_subtitle">
+				<Original>
+				Time is over. 1 hour 20 minutes have passed.
+				</Original>
+				<English>
+				Time is over. 1 hour 20 minutes have passed.
+				</English>
+				<Russian>
+				Время вышло. Прошёл 1 час 20 мин.
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_End3_subtitle">
+				<Original>
+				The checkpoint remained in the hands of insurgents.
+				</Original>
+				<English>
+                                The checkpoint remained in the hands of insurgents.
+				</English>
+				<Russian>
+				Блокпост остался в руках боевиков.
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_End3_description">
+				<Original>
+				Russian forces suffered critical losses. The checkpoint remained in the hands of insurgents. The defeat of losses.
+				</Original>
+				<English>
+                                Russian forces suffered critical losses. The checkpoint remained in the hands of insurgents. The defeat of losses.
+				</English>
+				<Russian>
+                                Силы РФ понесли критические потери. Блокпост остался в руках боевиков. Поражение по потерям.
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_End1_subtitle">
+				<Original>
+				Russian army captured the checkpoint.
+				</Original>
+				<English>
+                                Russian army captured the checkpoint.
+				</English>
+				<Russian>
+				Войска РФ захватили блокпост.
+				</Russian>
+			</Key>
+			<Key ID="STR_HA_End1_description">
+				<Original>
+				Russian army managed to repel the checkpoint and stay in it.
+				</Original>
+				<English>
+                                Russian army managed to repel the checkpoint and stay in it.
+				</English>
+				<Russian>
+				Войскам РФ удалось отбить блокпост и удержаться в нем.
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_End1_title">
+				<Original>
+				Victory of RF!
+				</Original>
+				<English>
+				Victory of RF!
+				</English>
+				<Russian>
+				Победа РФ!
+				</Russian>
+			</Key>
+
+
+			<Key ID="STR_HA_End2_subtitle">
+				<Original>
+				Russian army have destroyed almost all the fighters.
+				</Original>
+				<English>
+                                Russian army have destroyed almost all the fighters.
+				</English>
+				<Russian>
+				Войска РФ уничтожили почти всех боевиков.
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_End2_description">
+				<Original>
+				Russian army have destroyed almost all the fighters. The rest fled. The checkpoint is under control of the russian forces. Win by losses.
+				</Original>
+				<English>
+                                Russian army have destroyed almost all the fighters. The rest fled. The checkpoint is under control of the russian forces. Win by losses.
+				</English>
+				<Russian>
+				Войска РФ уничтожили почти всех боевиков. Остальные бежали. Блокпост под контролем сил РФ. Победа по потерям.
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_End1_ms_title">
+				<Original>
+				checkpoint under control of Russian army. &lt;br/&gt; Victory!
+				</Original>
+				<English>
+                                checkpoint under control of Russian army. &lt;br/&gt; Victory!
+				</English>
+				<Russian>
+                                Блокпост под контролем сил РФ. &lt;br/&gt; Победа!
+				</Russian>
+			</Key>
+                        
+			<Key ID="STR_HA_End2_ms_title">
+				<Original>
+                                ISIS fighters remained %1 from %2 - less then 10%3. &lt;br/&gt; Victory!
+				</Original>
+				<English>
+                                ISIS fighters remained %1 from %2 - less then 10%3. &lt;br/&gt; Victory!
+				</English>
+				<Russian>
+                                Боевиков осталось %1 из %2 - меньше 10%3. &lt;br/&gt; Победа!
+				</Russian>
+			</Key>
+
+
+			<Key ID="STR_HA_End3_ms_title">
+				<Original>
+				Russian soldiers remained %1 from %2 - less then 10%3. &lt;br/&gt; Fail!
+				</Original>
+				<English>
+                                Russian soldiers remained %1 from %2 - less then 10%3. &lt;br/&gt; Fail!
+				</English>
+				<Russian>
+                                Бойцов РФ осталось %1 из %2 - меньше 10%3.&lt;br/&gt; Поражение!
+				</Russian>
+			</Key>
+                                 
+			<Key ID="STR_HA_End4_ms_title">
+				<Original>
+				Time is over. 1 hour 20 minutes have passed. The checkpoint remained in the hands of insurgents. &lt;br/&gt; Fail!
+				</Original>
+				<English>
+                                Time is over. 1 hour 20 minutes have passed. The checkpoint remained in the hands of insurgents. &lt;br/&gt; Fail!
+				</English>
+				<Russian>
+                                Прошёл 1 час 20 мин, блокпост остался под контролем боевиков. &lt;br/&gt; Поражение!
+				</Russian>
+			</Key>
+
+			<Key ID="STR_HA_STOP">
+				<Original>
+				Stop!
+				</Original>
+				<English>
+                                Stop!
+				</English>
+				<Russian>
+                                Остановись!
+				</Russian>
+			</Key>
+
+                             
+
+
+
+		</Container>
+	</Package>
+</Project>
