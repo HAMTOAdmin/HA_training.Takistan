@@ -439,7 +439,7 @@ switch _this do {
 				_Flashlight
 			]];
 		_vests = 
-			[_VestL,(_vests select 1)+[
+			[_VestC,(_vests select 1)+[
 			    [_RifleMag,3],
 				[_Smokegrenade,2],
 				[_Grenade,1]
@@ -459,7 +459,10 @@ switch _this do {
 				[_RifleMag,2],
 				_Flashlight
 			]];
-		_vests = ["",[]];
+		_vests = [_VestL,(_vests select 1)+[
+			    [_RifleMag, 1],
+				[_Smokegrenade, 1]
+			]];
 	};
 	//Jet Pilot
 	//Лётчик
@@ -475,7 +478,10 @@ switch _this do {
 				[_RifleMag,2],
 				_Flashlight
 			]];
-		_vests = ["",[]];
+		_vests = [_VestL,(_vests select 1)+[
+			    [_RifleMag, 1],
+				[_Smokegrenade, 1]
+			]];
 	};	
 ///////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 //////////////DO NOT CHANGE AFTER THIS LINE\\\\\\\\\\\\
