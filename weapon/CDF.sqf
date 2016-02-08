@@ -22,6 +22,9 @@ _VestSS = 'LOP_V_6B23_6Sh92_OLV';
 _VestH = 'LOP_V_6B23_6Sh92_OLV';
 _Vest = 'LOP_V_6B23_Rifleman_OLV';
 _VestL = 'LOP_V_6B23_CrewOfficer_OLV';
+_VestT = 'bear_rhs_6b23_sand_crewofficer';
+_VestC = 'bear_rhs_6b23_sand_crewofficer';
+
 _Helm = 'LOP_H_6B27M_CDF';
 _Cap = 'LOP_H_Fieldcap_CDF';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
@@ -52,6 +55,8 @@ _RpgOgr ='rhs_rpg26_mag';
 _RpgGrenade = 'rhs_rpg7_PG7VL_mag';
 _RpgGrenadeO = 'rhs_rpg7_OG7V_mag';
 _OpticG = 'rhs_acc_pgo7v';
+_OpticRPG = 'rhs_acc_pgo7v';
+
 
 _MG = 'rhs_weap_m240B';
 _MGmag = 'rhsusf_100Rnd_762x51';
@@ -73,6 +78,10 @@ _GLflare = 'rhs_mag_M585_white';
 _GLsmoke = 'rhs_mag_m714_White';
 _GLsmokeGreen = 'rhs_mag_m715_Green';
 _GLsmokeRed = 'rhs_mag_m713_Red';
+
+
+_LightGreen = 'Chemlight_green';
+_LightRed = 'Chemlight_red';
 
 
 #include "companyHA.sqf"

@@ -19,6 +19,9 @@ _Helm = 'rhs_6b27m_ml';
 _Rucksack = 'bear_rhsusf_assault_eagleaiii_earth';
 _RadioDV = 'tf_mr3000_rhs';
 _Balc = 'rhs_balaclava';
+_Bandanna = 'H_Bandanna_sand';
+_Scarf ='G_Bandanna_tan';
+
 
 _Rifle = 'rhs_pzn_weap_akmn';
 _RifleGL = 'rhs_pzn_weap_akmn_gp25';
@@ -55,6 +58,10 @@ _GLflare = 'rhs_VG40OP_white';
 _GLsmoke = 'rhs_GRD40_White';
 _GLsmokeGreen = 'rhs_GRD40_Green';
 _GLsmokeRed = 'rhs_GRD40_Red';
+
+_LightGreen = 'rhs_mag_nspn_green';
+_LightRed = 'rhs_mag_nspn_red';
+
 
 #include "companyHAspn.sqf"
 

@@ -1,7 +1,7 @@
 #include "DEFAULT.sqf"
 _arr=[]; _ok = true;
-//09.02.2016 (дата)
-//Армия США (войска)
+//17.08.2015 (дата)
+//ЧСО (войска)
 
 // ====================================================================================
 //weapon
@@ -56,16 +56,16 @@ _OpticG = 'rhs_acc_pgo7v';
 _MG = 'rhs_weap_m240B';
 _MGmag = 'rhsusf_100Rnd_762x51';
 _MGoptic = 'rhsusf_acc_ELCAN';
-_AR = 'rhs_weap_m249_pip_L';
-_ARmag = 'rhs_200rnd_556x45_M_SAW';
+_AR = '';
+_ARmag = '';
 
-_SniperRifle = 'rhs_weap_sr25_ec';
+_SniperRifle = 'srifle_DMR_06_olive_F';
 _SniperOptics = 'rhsusf_acc_ACOG';
-_SniperRiflemag = 'rhsusf_20Rnd_762x51_m118_special_Mag';
-_SniperSilencer = '';
+_SniperRiflemag = '20Rnd_762x51_Mag';
+_SniperSilencer = 'muzzle_snds_B';
 
-_Grenade = 'rhs_mag_m67';
-_Smokegrenade = 'rhs_mag_an_m8hc';
+_Grenade = 'rhs_mag_rgd5';
+_Smokegrenade = 'rhs_mag_rdg2_white';
 _SmokegrenadeRed = 'SmokeShellRed';
 _SmokegrenadeGreen = 'SmokeShellGreen';
 _GLgrenade = 'rhs_mag_M441_HE';
@@ -73,6 +73,10 @@ _GLflare = 'rhs_mag_M585_white';
 _GLsmoke = 'rhs_mag_m714_White';
 _GLsmokeGreen = 'rhs_mag_m715_Green';
 _GLsmokeRed = 'rhs_mag_m713_Red';
+
+
+_LightGreen = 'Chemlight_green';
+_LightRed = 'Chemlight_red';
 
 
 #include "companyHA.sqf"

@@ -1,10 +1,10 @@
 ﻿//EXAMPLE
 /*
-0 = [this,[["HA",[["KR","Командир роты"],["KV","Командир взвода"],["SN","Снайпер"],["R","Радист"],["M","Санитар"],["KO","Командир Отделения"],["P","Пулемётчик"],["G","Гранатомётчик"],["PG","Помощник Гранатомётчика"],["SS","Старший Стрелок"],["S","Стрелок"],["T","Экипад"],["L","Лётчик"],["V","Вертолётчик"],["A","Автоматчик"]]]]] execVM "weapon\core\bgr_action.sqf";
+0 = [this,[["Наша Армия","HA",[["KR","Командир роты"],["KV","Командир взвода"],["SN","Снайпер"],["R","Радист"],["M","Санитар"],["KO","Командир Отделения"],["P","Пулемётчик"],["G","Гранатомётчик"],["PG","Помощник Гранатомётчика"],["SS","Старший Стрелок"],["S","Стрелок"],["T","Экипад"],["L","Лётчик"],["V","Вертолётчик"],["A","Автоматчик"]]]]] execVM "weapon\core\bgr_action.sqf";
 
-0 = [this,[["HATO",[["KR","Командир роты"],["KV","Командир взвода"],["SN","Снайпер"],["R","Радист"],["M","Санитар"],["KO","Командир Отделения"],["P","Пулемётчик"],["G","Гранатомётчик"],["PG","Помощник Гранатомётчика"],["SS","Старший Стрелок"],["S","Стрелок"],["T","Экипад"],["L","Лётчик"],["V","Вертолётчик"],["A","Автоматчик"]]]]] execVM "weapon\core\bgr_action.sqf";
+0 = [this,[["Войска НАТО","HATO",[["KR","Командир роты"],["KV","Командир взвода"],["SN","Снайпер"],["R","Радист"],["M","Санитар"],["KO","Командир Отделения"],["P","Пулемётчик"],["G","Гранатомётчик"],["PG","Помощник Гранатомётчика"],["SS","Старший Стрелок"],["S","Стрелок"],["T","Экипад"],["L","Лётчик"],["V","Вертолётчик"],["A","Автоматчик"]]]]] execVM "weapon\core\bgr_action.sqf";
 
-0 = [this,[["FIA",[["KR","Командир роты"],["KV","Командир взвода"],["SN","Снайпер"],["R","Радист"],["M","Санитар"],["KO","Командир Отделения"],["P","Пулемётчик"],["G","Гранатомётчик"],["PG","Помощник Гранатомётчика"],["SS","Старший Стрелок"],["S","Стрелок"],["T","Экипад"],["L","Лётчик"],["V","Вертолётчик"],["A","Автоматчик"]]],["PMC",[["KR","Командир роты"],["KV","Командир взвода"],["SN","Снайпер"],["R","Радист"],["M","Санитар"],["KO","Командир Отделения"],["P","Пулемётчик"],["G","Гранатомётчик"],["PG","Помощник Гранатомётчика"],["SS","Старший Стрелок"],["S","Стрелок"],["T","Экипад"],["L","Лётчик"],["V","Вертолётчик"],["A","Автоматчик"]]]]] execVM "weapon\core\bgr_action.sqf";
+0 = [this,[["Войска Fia","FIA",[["KR","Командир роты"],["KV","Командир взвода"],["SN","Снайпер"],["R","Радист"],["M","Санитар"],["KO","Командир Отделения"],["P","Пулемётчик"],["G","Гранатомётчик"],["PG","Помощник Гранатомётчика"],["SS","Старший Стрелок"],["S","Стрелок"],["T","Экипад"],["L","Лётчик"],["V","Вертолётчик"],["A","Автоматчик"]]],["PMC",[["KR","Командир роты"],["KV","Командир взвода"],["SN","Снайпер"],["R","Радист"],["M","Санитар"],["KO","Командир Отделения"],["P","Пулемётчик"],["G","Гранатомётчик"],["PG","Помощник Гранатомётчика"],["SS","Старший Стрелок"],["S","Стрелок"],["T","Экипад"],["L","Лётчик"],["V","Вертолётчик"],["A","Автоматчик"]]]]] execVM "weapon\core\bgr_action.sqf";
 
 */
 if (count _this == 2) then { //init
@@ -17,13 +17,14 @@ if (count _this == 2) then { //init
 	_priority = 1000;
 	{
 		_template = _x;
-		_file = _template select 0;
+		_title = _template select 0;
+		_file = _template select 1;
 		_priority = _priority-10;
-		_box addaction [format["<t color='#FF0000'>Открыть снаряжения %1</t>",_file],"weapon\core\bgr_action.sqf",[1,_file,0],_priority,true,false,"",format ['_target getVariable ["bgr_curent_ammo_template",""]!="%1"',_file]];
-		_box addaction [format["<t color='#FF0000'>Закрыть снаряжения %1</t>",_file],"weapon\core\bgr_action.sqf",[2,_file,0],_priority-1,true,false,"",format ['_target getVariable ["bgr_curent_ammo_template",""]=="%1"',_file]];
-		_actions = _template select 1;
+		_box addaction [format["<t color='#FF0000'>Открыть снаряжения %1 (%2)</t>",_title,_file],"weapon\core\bgr_action.sqf",[1,_file,0],_priority,true,false,"",format ['_target getVariable ["bgr_curent_ammo_template",""]!="%1"',_file]];
+		_box addaction [format["<t color='#FF0000'>Закрыть снаряжения %1 (%2)</t>",_title,_file],"weapon\core\bgr_action.sqf",[2,_file,0],_priority-1,true,false,"",format ['_target getVariable ["bgr_curent_ammo_template",""]=="%1"',_file]];
+		_actions = _template select 2;
 		{
-			_box addaction [format["   Снаряжение %1 (%2)",(_x select 1),_file],"weapon\core\bgr_action.sqf",[3,_file,(_x select 0)],_priority-5,true,true,"",format ['_target getVariable ["bgr_curent_ammo_template",""]=="%1"',_file]];
+			_box addaction [format["   Снаряжение %1",(_x select 1)],"weapon\core\bgr_action.sqf",[3,_file,(_x select 0)],_priority-5,true,true,"",format ['_target getVariable ["bgr_curent_ammo_template",""]=="%1"',_file]];
 		} foreach _actions;
 	} foreach _templates;
 }else{

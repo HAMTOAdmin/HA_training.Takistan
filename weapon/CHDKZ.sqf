@@ -74,6 +74,7 @@ _GLsmoke = 'rhs_GRD40_White';
 _GLsmokeGreen = 'rhs_GRD40_Green';
 _GLsmokeRed = 'rhs_GRD40_Red';
 
+_LightGreen = 'Chemlight_green';
 
 #include "companyHA.sqf"
 

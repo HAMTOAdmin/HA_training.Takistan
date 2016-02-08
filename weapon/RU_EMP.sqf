@@ -22,6 +22,7 @@ _VestSS = 'rhs_6b23_digi_6sh92_vog';
 _VestH = 'rhs_6b23_digi_6sh92';
 _Vest = 'rhs_6b23_digi_rifleman';
 _VestL = 'rhs_6b23_digi_crewofficer';
+_VestC = 'rhs_6b23_digi_crewofficer';
 _Helm = ['rhs_6b27m_digi','rhs_6b27m_digi_ess','rhs_6b28','rhs_6b28_ess'];
 _Cap = 'rhs_fieldcap_digi_des';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
@@ -77,6 +78,10 @@ _GLflare = 'rhs_VG40OP_white';
 _GLsmoke = 'rhs_GRD40_White';
 _GLsmokeGreen = 'rhs_GRD40_Green';
 _GLsmokeRed = 'rhs_GRD40_Red';
+
+
+_LightGreen = 'rhs_mag_nspn_green';
+_LightRed = 'rhs_mag_nspn_red';
 
 
 #include "companyHA.sqf"
