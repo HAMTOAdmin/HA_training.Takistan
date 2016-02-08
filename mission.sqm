@@ -38,9 +38,6 @@ class Mission
 		"a3_characters_f",
 		"ace_spectator",
 		"ace_sitting",
-		"ace_missionModules",
-		"ace_map_gestures",
-		"ace_finger",
 		"rhs_c_a2port_air",
 		"A3_Structures_F_Civ_InfoBoards",
 		"A3_Structures_F_Mil_BagBunker",
@@ -67,10 +64,7 @@ class Mission
 		"a3_modules_f_curator_curator",
 		"ace_weather",
 		"ace_sitting",
-		"ace_missionModules",
 		"ace_respawn",
-		"ace_map_gestures",
-		"ace_finger",
 		"ace_winddeflection",
 		"ace_nametags",
 		"ace_captives",
@@ -115,7 +109,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=48;
+		items=43;
 		class Item0
 		{
 			side="LOGIC";
@@ -124,7 +118,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5873.1069,83.040001,11400.245};
+					position[]={5868.0737,83.040001,11399.512};
 					class args
 					{
 						items=7;
@@ -188,7 +182,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5879.9121,83.040001,11400.139};
+					position[]={5884.9727,83.040001,11400.504};
 					class args
 					{
 						items=6;
@@ -246,7 +240,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5876.7378,83.040001,11397.871};
+					position[]={5875.4268,83.040001,11400.508};
 					class args
 					{
 						items=13;
@@ -346,7 +340,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5879.6831,83.040001,11397.863};
+					position[]={5877.3267,83.040001,11400.507};
 					class args
 					{
 						items=2;
@@ -380,7 +374,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5885.5557,83.040001,11397.949};
+					position[]={5886.8789,83.040001,11400.504};
 					class args
 					{
 						items=3;
@@ -893,7 +887,7 @@ class Mission
 				class Item0
 				{
 					position[]={5822.9487,83.040001,11358.157};
-					azimut=507.29044;
+					azimut=507.29001;
 					special="NONE";
 					id=37;
 					side="EAST";
@@ -903,13 +897,13 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="zeus";
-					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""instructors""]; [""RU_EMP"",""KR"",this] call bgr_fnc_ammoLoad;";
+					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""instructors""]; [""RU_DESERT"",""KR"",this] call bgr_fnc_ammoLoad;";
 					description="Инструктор";
 				};
 				class Item1
 				{
 					position[]={5821.9243,83.040001,11357.223};
-					azimut=497.97043;
+					azimut=497.97;
 					special="NONE";
 					id=38;
 					side="EAST";
@@ -918,13 +912,13 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="zeus1";
-					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Инструкторы""]; [""RU_EMP"",""KR"",this] call bgr_fnc_ammoLoad;";
+					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Инструкторы""]; [""RU_DESERT"",""KR"",this] call bgr_fnc_ammoLoad;";
 					description="Инструктор";
 				};
 				class Item2
 				{
 					position[]={5820.8657,83.040001,11356.206};
-					azimut=499.27441;
+					azimut=499.27399;
 					special="NONE";
 					id=39;
 					side="EAST";
@@ -933,13 +927,13 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="zeus2";
-					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Инструкторы""]; [""RU_EMP"",""KR"",this] call bgr_fnc_ammoLoad;";
+					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Инструкторы""]; [""RU_DESERT"",""KR"",this] call bgr_fnc_ammoLoad;";
 					description="Инструктор";
 				};
 				class Item3
 				{
 					position[]={5819.8105,83.040001,11355.18};
-					azimut=495.22842;
+					azimut=495.228;
 					special="NONE";
 					id=40;
 					side="EAST";
@@ -948,7 +942,7 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="zeus3";
-					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Инструкторы""]; [""RU_EMP"",""KR"",this] call bgr_fnc_ammoLoad;";
+					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Инструкторы""]; [""RU_DESERT"",""KR"",this] call bgr_fnc_ammoLoad;";
 					description="Инструктор";
 				};
 			};
@@ -971,7 +965,7 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
-					init="this setGroupid [""1MCB, call 100""]; [""RU_EMP"",""KV"",this] call bgr_fnc_ammoLoad;";
+					init="this setGroupid [""1MCB, call 100""]; [""RU_DESERT"",""KV"",this] call bgr_fnc_ammoLoad;";
 					description="Командир взвода";
 				};
 				class Item1
@@ -986,7 +980,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="zeus7";
-					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""1MCB, call 100""]; [""RU_EMP"",""KV"",this] call bgr_fnc_ammoLoad;";
+					init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""1MCB, call 100""]; [""RU_DESERT"",""KV"",this] call bgr_fnc_ammoLoad;";
 					description="Командир МСВ (Zeus)";
 				};
 				class Item2
@@ -1000,7 +994,7 @@ class Mission
 					player="PLAY CDG";
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="[""RU_EMP"",""SN"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""SN"",this] call bgr_fnc_ammoLoad;";
 					description="Снайпер";
 				};
 				class Item3
@@ -1015,7 +1009,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="medic2";
-					init="[""RU_EMP"",""M"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""M"",this] call bgr_fnc_ammoLoad;";
 					description="Медик";
 				};
 				class Item4
@@ -1029,7 +1023,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[""RU_EMP"",""R"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""R"",this] call bgr_fnc_ammoLoad;";
 					description="Радист";
 				};
 			};
@@ -1052,7 +1046,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="this setGroupid [""1MCO, call 110""]; [""RU_EMP"",""KO"",this] call bgr_fnc_ammoLoad;";
+					init="this setGroupid [""1MCO, call 110""]; [""RU_DESERT"",""KO"",this] call bgr_fnc_ammoLoad;";
 					description="Командир отделения";
 				};
 				class Item1
@@ -1065,7 +1059,7 @@ class Mission
 					vehicle="rhs_msv_machinegunner";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""P"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""P"",this] call bgr_fnc_ammoLoad;";
 					description="Пулеметчик";
 				};
 				class Item2
@@ -1079,7 +1073,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[""RU_EMP"",""SS"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""SS"",this] call bgr_fnc_ammoLoad;";
 					description="Старший стрелок";
 				};
 				class Item3
@@ -1092,7 +1086,7 @@ class Mission
 					vehicle="rhs_msv_grenadier";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""G"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""G"",this] call bgr_fnc_ammoLoad;";
 					description="Гранатометчик";
 				};
 				class Item4
@@ -1105,7 +1099,7 @@ class Mission
 					vehicle="rhs_msv_strelok_rpg_assist";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""PG"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""PG"",this] call bgr_fnc_ammoLoad;";
 					description="Помощник Гранатометчика";
 				};
 				class Item5
@@ -1118,7 +1112,7 @@ class Mission
 					vehicle="rhs_msv_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""S"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""S"",this] call bgr_fnc_ammoLoad;";
 					description="Стрелок";
 				};
 				class Item6
@@ -1131,7 +1125,7 @@ class Mission
 					vehicle="rhs_msv_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""S"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""S"",this] call bgr_fnc_ammoLoad;";
 					description="Стрелок";
 				};
 				class Item7
@@ -1144,7 +1138,7 @@ class Mission
 					vehicle="rhs_msv_crew";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Наводчик-оператор";
 				};
 				class Item8
@@ -1157,7 +1151,7 @@ class Mission
 					vehicle="rhs_msv_crew";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Механик-водитель";
 				};
 			};
@@ -1180,7 +1174,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="this setGroupid [""2MCO, call 120""]; [""RU_EMP"",""KO"",this] call bgr_fnc_ammoLoad;";
+					init="this setGroupid [""2MCO, call 120""]; [""RU_DESERT"",""KO"",this] call bgr_fnc_ammoLoad;";
 					description="Командир отделения";
 				};
 				class Item1
@@ -1193,7 +1187,7 @@ class Mission
 					vehicle="rhs_msv_machinegunner";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""P"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""P"",this] call bgr_fnc_ammoLoad;";
 					description="Пулеметчик";
 				};
 				class Item2
@@ -1207,7 +1201,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[""RU_EMP"",""SS"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""SS"",this] call bgr_fnc_ammoLoad;";
 					description="Старший стрелок";
 				};
 				class Item3
@@ -1220,7 +1214,7 @@ class Mission
 					vehicle="rhs_msv_grenadier";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""G"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""G"",this] call bgr_fnc_ammoLoad;";
 					description="Гранатометчик";
 				};
 				class Item4
@@ -1233,7 +1227,7 @@ class Mission
 					vehicle="rhs_msv_strelok_rpg_assist";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""PG"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""PG"",this] call bgr_fnc_ammoLoad;";
 					description="Помощник Гранатометчика";
 				};
 				class Item5
@@ -1246,7 +1240,7 @@ class Mission
 					vehicle="rhs_msv_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""S"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""S"",this] call bgr_fnc_ammoLoad;";
 					description="Стрелок";
 				};
 				class Item6
@@ -1259,7 +1253,7 @@ class Mission
 					vehicle="rhs_msv_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""S"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""S"",this] call bgr_fnc_ammoLoad;";
 					description="Стрелок";
 				};
 				class Item7
@@ -1272,7 +1266,7 @@ class Mission
 					vehicle="rhs_msv_crew";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Наводчик-оператор";
 				};
 				class Item8
@@ -1285,7 +1279,7 @@ class Mission
 					vehicle="rhs_msv_crew";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Механик-водитель";
 				};
 			};
@@ -1308,7 +1302,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="this setGroupid [""3MCO, call 130""]; [""RU_EMP"",""KO"",this] call bgr_fnc_ammoLoad;";
+					init="this setGroupid [""3MCO, call 130""]; [""RU_DESERT"",""KO"",this] call bgr_fnc_ammoLoad;";
 					description="Командир отделения";
 				};
 				class Item1
@@ -1321,7 +1315,7 @@ class Mission
 					vehicle="rhs_msv_machinegunner";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""P"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""P"",this] call bgr_fnc_ammoLoad;";
 					description="Пулеметчик";
 				};
 				class Item2
@@ -1335,7 +1329,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[""RU_EMP"",""SS"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""SS"",this] call bgr_fnc_ammoLoad;";
 					description="Старший стрелок";
 				};
 				class Item3
@@ -1348,7 +1342,7 @@ class Mission
 					vehicle="rhs_msv_grenadier";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""G"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""G"",this] call bgr_fnc_ammoLoad;";
 					description="Гранатометчик";
 				};
 				class Item4
@@ -1361,7 +1355,7 @@ class Mission
 					vehicle="rhs_msv_strelok_rpg_assist";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""PG"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""PG"",this] call bgr_fnc_ammoLoad;";
 					description="Помощник Гранатометчика";
 				};
 				class Item5
@@ -1374,7 +1368,7 @@ class Mission
 					vehicle="rhs_msv_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""S"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""S"",this] call bgr_fnc_ammoLoad;";
 					description="Стрелок";
 				};
 				class Item6
@@ -1387,7 +1381,7 @@ class Mission
 					vehicle="rhs_msv_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""S"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""S"",this] call bgr_fnc_ammoLoad;";
 					description="Стрелок";
 				};
 				class Item7
@@ -1400,7 +1394,7 @@ class Mission
 					vehicle="rhs_msv_crew";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Наводчик-оператор";
 				};
 				class Item8
@@ -1413,7 +1407,7 @@ class Mission
 					vehicle="rhs_msv_crew";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Механик-водитель";
 				};
 			};
@@ -1545,7 +1539,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="this setGroupid [""2BТV, call SQUIRREL""]; [""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="this setGroupid [""2BТV, call SQUIRREL""]; [""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Командир БТВ";
 				};
 				class Item1
@@ -1560,7 +1554,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="zeus5";
-					init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Командир БТВ (Zeus)";
 				};
 				class Item2
@@ -1574,7 +1568,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Наводчик-оператор";
 				};
 				class Item3
@@ -1587,7 +1581,7 @@ class Mission
 					vehicle="rhs_msv_crew";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Механик-водитель";
 				};
 				class Item4
@@ -1601,7 +1595,7 @@ class Mission
 					player="PLAY CDG";
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Командир танка";
 				};
 				class Item5
@@ -1615,7 +1609,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Наводчик-оператор";
 				};
 				class Item6
@@ -1628,7 +1622,7 @@ class Mission
 					vehicle="rhs_msv_crew";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""T"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
 					description="Механик-водитель";
 				};
 			};
@@ -1651,7 +1645,7 @@ class Mission
 					leader=1;
 					rank="CAPTAIN";
 					skill=0.60000002;
-					init="this setGroupid [""7AE, call 51""]; [""RU_EMP"",""V"",this] call bgr_fnc_ammoLoad;";
+					init="this setGroupid [""7AE, call 51""]; [""RU_DESERT"",""V"",this] call bgr_fnc_ammoLoad;";
 					description="Командир АЭ";
 				};
 				class Item1
@@ -1666,7 +1660,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="zeus6";
-					init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_EMP"",""V"",this] call bgr_fnc_ammoLoad;";
+					init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_DESERT"",""V"",this] call bgr_fnc_ammoLoad;";
 					description="Командир АЭ (Zeus)";
 				};
 				class Item2
@@ -1680,7 +1674,7 @@ class Mission
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
-					init="[""RU_EMP"",""V"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""V"",this] call bgr_fnc_ammoLoad;";
 					description="Летчик";
 				};
 				class Item3
@@ -1694,7 +1688,7 @@ class Mission
 					player="PLAY CDG";
 					rank="LIEUTENANT";
 					skill=0.60000002;
-					init="[""RU_EMP"",""V"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""V"",this] call bgr_fnc_ammoLoad;";
 					description="Летчик";
 				};
 			};
@@ -1717,7 +1711,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="this setGroupid [""МП, call 140""]; [""RU_EMP"",""KO"",this] call bgr_fnc_ammoLoad;";
+					init="this setGroupid [""МП, call 140""]; [""RU_DESERT"",""KO"",this] call bgr_fnc_ammoLoad;";
 					description="Командир МП";
 				};
 				class Item1
@@ -1732,7 +1726,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="zeus8";
-					init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_EMP"",""KO"",this] call bgr_fnc_ammoLoad;";
+					init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_DESERT"",""KO"",this] call bgr_fnc_ammoLoad;";
 					description="Командир МП (Zeus)";
 				};
 				class Item2
@@ -1745,7 +1739,7 @@ class Mission
 					vehicle="rhs_msv_machinegunner";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""P"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""P"",this] call bgr_fnc_ammoLoad;";
 					description="Пулеметчик";
 				};
 				class Item3
@@ -1759,7 +1753,7 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[""RU_EMP"",""SS"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""SS"",this] call bgr_fnc_ammoLoad;";
 					description="Старший стрелок";
 				};
 				class Item4
@@ -1772,7 +1766,7 @@ class Mission
 					vehicle="rhs_msv_grenadier";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""G"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""G"",this] call bgr_fnc_ammoLoad;";
 					description="Гранатометчик";
 				};
 				class Item5
@@ -1785,7 +1779,7 @@ class Mission
 					vehicle="rhs_msv_strelok_rpg_assist";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""PG"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""PG"",this] call bgr_fnc_ammoLoad;";
 					description="Помощник Гранатометчика";
 				};
 				class Item6
@@ -1798,7 +1792,7 @@ class Mission
 					vehicle="rhs_msv_machinegunner_assistant";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""PP"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""PP"",this] call bgr_fnc_ammoLoad;";
 					description="Помощник пулемётчика";
 				};
 				class Item7
@@ -1811,7 +1805,7 @@ class Mission
 					vehicle="rhs_msv_rifleman";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""RU_EMP"",""S"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""S"",this] call bgr_fnc_ammoLoad;";
 					description="Стрелок";
 				};
 			};
@@ -1834,7 +1828,7 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.60000002;
-					init="this setGroupid [""СнО, call 30""]; [""RU_EMP"",""SNO"",this] call bgr_fnc_ammoLoad;";
+					init="this setGroupid [""СнО, call 30""]; [""RU_DESERT"",""SNO"",this] call bgr_fnc_ammoLoad;";
 					description="Командир СнО (СВД)";
 				};
 				class Item1
@@ -1849,7 +1843,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="zeus9";
-					init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_EMP"",""SNO"",this] call bgr_fnc_ammoLoad;";
+					init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_DESERT"",""SNO"",this] call bgr_fnc_ammoLoad;";
 					description="Командир СнО (Zeus) (СВД)";
 				};
 				class Item2
@@ -1863,64 +1857,12 @@ class Mission
 					player="PLAY CDG";
 					rank="CORPORAL";
 					skill=0.60000002;
-					init="[""RU_EMP"",""SNO"",this] call bgr_fnc_ammoLoad;";
+					init="[""RU_DESERT"",""SNO"",this] call bgr_fnc_ammoLoad;";
 					description="Снайпер (СВД)";
 				};
 			};
 		};
 		class Item20
-		{
-			side="EAST";
-			class Vehicles
-			{
-				items=3;
-				class Item0
-				{
-					position[]={5849.9644,83.040001,11324.04};
-					azimut=323.28833;
-					special="NONE";
-					id=102;
-					side="EAST";
-					vehicle="rhs_msv_marksman";
-					player="PLAY CDG";
-					leader=1;
-					rank="SERGEANT";
-					skill=0.60000002;
-					init="this setGroupid [""СнО, call 30""]; [""RU_SNO"",""SNOK"",this] call bgr_fnc_ammoLoad;";
-					description="Командир СнО (Cyrus)";
-				};
-				class Item1
-				{
-					position[]={5850.8652,83.040001,11324.998};
-					azimut=323.28833;
-					special="NONE";
-					id=103;
-					side="EAST";
-					vehicle="rhs_msv_marksman";
-					player="PLAY CDG";
-					rank="SERGEANT";
-					skill=0.60000002;
-					text="zeus10";
-					init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_SNO"",""SNOK"",this] call bgr_fnc_ammoLoad;";
-					description="Командир СнО (Zeus) (Cyrus)";
-				};
-				class Item2
-				{
-					position[]={5851.8057,83.040001,11325.942};
-					azimut=323.28833;
-					special="NONE";
-					id=104;
-					side="EAST";
-					vehicle="rhs_msv_marksman";
-					player="PLAY CDG";
-					rank="CORPORAL";
-					skill=0.60000002;
-					init="[""RU_SNO"",""SNO"",this] call bgr_fnc_ammoLoad;";
-					description="Снайпер (Cyrus)";
-				};
-			};
-		};
-		class Item21
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1928,7 +1870,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5846.0132,83.040001,11388.721};
+					position[]={5844.333,83.040001,11399.509};
 					class args
 					{
 						items=4;
@@ -1957,7 +1899,7 @@ class Mission
 							typeName="Forced";
 						};
 					};
-					id=105;
+					id=102;
 					side="LOGIC";
 					vehicle="ModuleCurator_F";
 					leader=1;
@@ -1966,7 +1908,7 @@ class Mission
 				};
 			};
 		};
-		class Item22
+		class Item21
 		{
 			side="LOGIC";
 			class Vehicles
@@ -1974,7 +1916,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5849.0903,83.040001,11388.706};
+					position[]={5847.3916,83.040001,11399.494};
 					class args
 					{
 						items=4;
@@ -2003,7 +1945,53 @@ class Mission
 							typeName="Forced";
 						};
 					};
-					id=106;
+					id=103;
+					side="LOGIC";
+					vehicle="ModuleCurator_F";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item22
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5850.396,83.040001,11399.489};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="zeus2";
+							parentCls="ModuleCurator_F";
+							typeName="Owner";
+						};
+						class Item1
+						{
+							value="";
+							parentCls="ModuleCurator_F";
+							typeName="Name";
+						};
+						class Item2
+						{
+							value="3";
+							parentCls="ModuleCurator_F";
+							typeName="Addons";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="ModuleCurator_F";
+							typeName="Forced";
+						};
+					};
+					id=104;
 					side="LOGIC";
 					vehicle="ModuleCurator_F";
 					leader=1;
@@ -2020,13 +2008,109 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5852.0942,83.040001,11388.701};
+					position[]={5853.6489,83.040001,11399.506};
 					class args
 					{
 						items=4;
 						class Item0
 						{
-							value="zeus2";
+							value="zeus3";
+							parentCls="ModuleCurator_F";
+							typeName="Owner";
+						};
+						class Item1
+						{
+							value="";
+							parentCls="ModuleCurator_F";
+							typeName="Name";
+						};
+						class Item2
+						{
+							value="3";
+							parentCls="ModuleCurator_F";
+							typeName="Addons";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="ModuleCurator_F";
+							typeName="Forced";
+						};
+					};
+					id=105;
+					side="LOGIC";
+					vehicle="ModuleCurator_F";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=0;
+					synchronizations[]={0};
+				};
+			};
+		};
+		class Item24
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5857.3506,83.040001,11399.498};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="ZeusB";
+							parentCls="ModuleCurator_F";
+							typeName="Owner";
+						};
+						class Item1
+						{
+							value="";
+							parentCls="ModuleCurator_F";
+							typeName="Name";
+						};
+						class Item2
+						{
+							value="3";
+							parentCls="ModuleCurator_F";
+							typeName="Addons";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="ModuleCurator_F";
+							typeName="Forced";
+						};
+					};
+					id=106;
+					side="LOGIC";
+					vehicle="ModuleCurator_F";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=1;
+					synchronizations[]={1};
+				};
+			};
+		};
+		class Item25
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5844.3647,83.040001,11397.542};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="zeus4";
 							parentCls="ModuleCurator_F";
 							typeName="Owner";
 						};
@@ -2058,102 +2142,6 @@ class Mission
 				};
 			};
 		};
-		class Item24
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={5855.3291,83.040001,11388.7};
-					class args
-					{
-						items=4;
-						class Item0
-						{
-							value="zeus3";
-							parentCls="ModuleCurator_F";
-							typeName="Owner";
-						};
-						class Item1
-						{
-							value="";
-							parentCls="ModuleCurator_F";
-							typeName="Name";
-						};
-						class Item2
-						{
-							value="3";
-							parentCls="ModuleCurator_F";
-							typeName="Addons";
-						};
-						class Item3
-						{
-							value="0";
-							parentCls="ModuleCurator_F";
-							typeName="Forced";
-						};
-					};
-					id=108;
-					side="LOGIC";
-					vehicle="ModuleCurator_F";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-					syncId=0;
-					synchronizations[]={0};
-				};
-			};
-		};
-		class Item25
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={5859.0132,83.040001,11388.675};
-					class args
-					{
-						items=4;
-						class Item0
-						{
-							value="ZeusB";
-							parentCls="ModuleCurator_F";
-							typeName="Owner";
-						};
-						class Item1
-						{
-							value="";
-							parentCls="ModuleCurator_F";
-							typeName="Name";
-						};
-						class Item2
-						{
-							value="3";
-							parentCls="ModuleCurator_F";
-							typeName="Addons";
-						};
-						class Item3
-						{
-							value="0";
-							parentCls="ModuleCurator_F";
-							typeName="Forced";
-						};
-					};
-					id=109;
-					side="LOGIC";
-					vehicle="ModuleCurator_F";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-					syncId=1;
-					synchronizations[]={1};
-				};
-			};
-		};
 		class Item26
 		{
 			side="LOGIC";
@@ -2162,53 +2150,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5846.1528,83.040001,11386.272};
-					class args
-					{
-						items=4;
-						class Item0
-						{
-							value="zeus4";
-							parentCls="ModuleCurator_F";
-							typeName="Owner";
-						};
-						class Item1
-						{
-							value="";
-							parentCls="ModuleCurator_F";
-							typeName="Name";
-						};
-						class Item2
-						{
-							value="3";
-							parentCls="ModuleCurator_F";
-							typeName="Addons";
-						};
-						class Item3
-						{
-							value="0";
-							parentCls="ModuleCurator_F";
-							typeName="Forced";
-						};
-					};
-					id=110;
-					side="LOGIC";
-					vehicle="ModuleCurator_F";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item27
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={5849.23,83.040001,11386.258};
+					position[]={5847.46,83.040001,11397.545};
 					class args
 					{
 						items=4;
@@ -2237,7 +2179,7 @@ class Mission
 							typeName="Forced";
 						};
 					};
-					id=111;
+					id=108;
 					side="LOGIC";
 					vehicle="ModuleCurator_F";
 					leader=1;
@@ -2246,7 +2188,7 @@ class Mission
 				};
 			};
 		};
-		class Item28
+		class Item27
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2254,7 +2196,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5852.2339,83.040001,11386.253};
+					position[]={5850.4458,83.040001,11397.522};
 					class args
 					{
 						items=4;
@@ -2283,7 +2225,7 @@ class Mission
 							typeName="Forced";
 						};
 					};
-					id=112;
+					id=109;
 					side="LOGIC";
 					vehicle="ModuleCurator_F";
 					leader=1;
@@ -2292,7 +2234,7 @@ class Mission
 				};
 			};
 		};
-		class Item29
+		class Item28
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2300,7 +2242,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5855.4688,83.040001,11386.252};
+					position[]={5853.6987,83.040001,11397.54};
 					class args
 					{
 						items=4;
@@ -2329,7 +2271,7 @@ class Mission
 							typeName="Forced";
 						};
 					};
-					id=113;
+					id=110;
 					side="LOGIC";
 					vehicle="ModuleCurator_F";
 					leader=1;
@@ -2340,7 +2282,7 @@ class Mission
 				};
 			};
 		};
-		class Item30
+		class Item29
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2348,7 +2290,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5859.0425,83.040001,11386.041};
+					position[]={5857.3975,83.040001,11397.524};
 					class args
 					{
 						items=4;
@@ -2377,7 +2319,7 @@ class Mission
 							typeName="Forced";
 						};
 					};
-					id=114;
+					id=111;
 					side="LOGIC";
 					vehicle="ModuleCurator_F";
 					leader=1;
@@ -2388,7 +2330,7 @@ class Mission
 				};
 			};
 		};
-		class Item31
+		class Item30
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2396,7 +2338,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5846.2588,83.040001,11383.829};
+					position[]={5844.3276,83.040001,11395.295};
 					class args
 					{
 						items=4;
@@ -2425,7 +2367,7 @@ class Mission
 							typeName="Forced";
 						};
 					};
-					id=115;
+					id=112;
 					side="LOGIC";
 					vehicle="ModuleCurator_F";
 					leader=1;
@@ -2436,7 +2378,7 @@ class Mission
 				};
 			};
 		};
-		class Item32
+		class Item31
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2444,7 +2386,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5849.3164,83.040001,11383.829};
+					position[]={5847.3853,83.040001,11395.295};
 					class args
 					{
 						items=4;
@@ -2473,7 +2415,7 @@ class Mission
 							typeName="Forced";
 						};
 					};
-					id=116;
+					id=113;
 					side="LOGIC";
 					vehicle="ModuleCurator_F";
 					leader=1;
@@ -2484,7 +2426,7 @@ class Mission
 				};
 			};
 		};
-		class Item33
+		class Item32
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2492,7 +2434,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5884.5405,83.040001,11394.477};
+					position[]={5883.1138,83.040001,11400.5};
 					class args
 					{
 						items=6;
@@ -2533,9 +2475,37 @@ class Mission
 							typeName="serverUpdateInterval";
 						};
 					};
-					id=117;
+					id=114;
 					side="LOGIC";
 					vehicle="ace_weather_ModuleSettings";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item33
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5896.4443,83.040001,11400.502};
+					class args
+					{
+						items=1;
+						class Item0
+						{
+							value="1";
+							parentCls="ACE_ModuleSitting";
+							typeName="enable";
+						};
+					};
+					id=115;
+					side="LOGIC";
+					vehicle="ACE_ModuleSitting";
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
@@ -2550,99 +2520,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5876.7188,83.040001,11402.877};
-					class args
-					{
-						items=1;
-						class Item0
-						{
-							value="1";
-							parentCls="ACE_ModuleSitting";
-							typeName="enable";
-						};
-					};
-					id=118;
-					side="LOGIC";
-					vehicle="ACE_ModuleSitting";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item35
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={5887.3301,83.040001,11397.98};
-					class args
-					{
-						items=7;
-						class Item0
-						{
-							value="";
-							parentCls="ACE_moduleAmbianceSound";
-							typeName="soundFiles";
-						};
-						class Item1
-						{
-							value="400";
-							parentCls="ACE_moduleAmbianceSound";
-							typeName="minimalDistance";
-						};
-						class Item2
-						{
-							value="900";
-							parentCls="ACE_moduleAmbianceSound";
-							typeName="maximalDistance";
-						};
-						class Item3
-						{
-							value="10";
-							parentCls="ACE_moduleAmbianceSound";
-							typeName="minimalDelay";
-						};
-						class Item4
-						{
-							value="170";
-							parentCls="ACE_moduleAmbianceSound";
-							typeName="maximalDelay";
-						};
-						class Item5
-						{
-							value="1";
-							parentCls="ACE_moduleAmbianceSound";
-							typeName="followPlayers";
-						};
-						class Item6
-						{
-							value="1";
-							parentCls="ACE_moduleAmbianceSound";
-							typeName="soundVolume";
-						};
-					};
-					id=119;
-					side="LOGIC";
-					vehicle="ACE_moduleAmbianceSound";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item36
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={5881.6816,83.040001,11403.006};
+					position[]={5890.5908,83.040001,11400.523};
 					class args
 					{
 						items=2;
@@ -2659,7 +2537,7 @@ class Mission
 							typeName="RemoveDeadBodiesDisconnected";
 						};
 					};
-					id=120;
+					id=116;
 					side="LOGIC";
 					vehicle="ACE_ModuleRespawn";
 					leader=1;
@@ -2668,7 +2546,7 @@ class Mission
 				};
 			};
 		};
-		class Item37
+		class Item35
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2676,127 +2554,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5882.4844,83.040001,11400.166};
-					class args
-					{
-						items=5;
-						class Item0
-						{
-							value="1";
-							parentCls="ace_map_gestures_moduleSettings";
-							typeName="enabled";
-						};
-						class Item1
-						{
-							value="7";
-							parentCls="ace_map_gestures_moduleSettings";
-							typeName="maxRange";
-						};
-						class Item2
-						{
-							value="0.03";
-							parentCls="ace_map_gestures_moduleSettings";
-							typeName="interval";
-						};
-						class Item3
-						{
-							value="1,0.88,0,0.95";
-							parentCls="ace_map_gestures_moduleSettings";
-							typeName="defaultLeadColor";
-						};
-						class Item4
-						{
-							value="1,0.88,0,0.7";
-							parentCls="ace_map_gestures_moduleSettings";
-							typeName="defaultColor";
-						};
-					};
-					id=121;
-					side="LOGIC";
-					vehicle="ace_map_gestures_moduleSettings";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item38
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={5885.0635,83.040001,11400.254};
-					class args
-					{
-						items=2;
-						class Item0
-						{
-							value="1,0.88,0,0.95";
-							parentCls="ace_map_gestures_moduleGroupSettings";
-							typeName="leadColor";
-						};
-						class Item1
-						{
-							value="1,0.88,0,0.7";
-							parentCls="ace_map_gestures_moduleGroupSettings";
-							typeName="color";
-						};
-					};
-					id=122;
-					side="LOGIC";
-					vehicle="ace_map_gestures_moduleGroupSettings";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item39
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={5887.1606,83.040001,11400.208};
-					class args
-					{
-						items=2;
-						class Item0
-						{
-							value="1";
-							parentCls="ace_finger_moduleSettings";
-							typeName="enabled";
-						};
-						class Item1
-						{
-							value="4";
-							parentCls="ace_finger_moduleSettings";
-							typeName="maxRange";
-						};
-					};
-					id=123;
-					side="LOGIC";
-					vehicle="ace_finger_moduleSettings";
-					leader=1;
-					lock="UNLOCKED";
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item40
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={5882.6357,83.040001,11394.416};
+					position[]={5881.2446,83.040001,11400.51};
 					class args
 					{
 						items=4;
@@ -2825,7 +2583,7 @@ class Mission
 							typeName="simulationRadius";
 						};
 					};
-					id=124;
+					id=117;
 					side="LOGIC";
 					vehicle="ace_winddeflection_ModuleSettings";
 					leader=1;
@@ -2834,7 +2592,7 @@ class Mission
 				};
 			};
 		};
-		class Item41
+		class Item36
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2842,7 +2600,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5879.2764,83.040001,11402.955};
+					position[]={5888.7393,83.040001,11400.491};
 					class args
 					{
 						items=5;
@@ -2877,7 +2635,7 @@ class Mission
 							typeName="showCursorTagForVehicles";
 						};
 					};
-					id=125;
+					id=118;
 					side="LOGIC";
 					vehicle="ACE_ModuleNameTags";
 					leader=1;
@@ -2886,7 +2644,7 @@ class Mission
 				};
 			};
 		};
-		class Item42
+		class Item37
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2894,7 +2652,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5876.6035,83.040001,11394.343};
+					position[]={5894.4912,83.040001,11400.484};
 					class args
 					{
 						items=3;
@@ -2917,7 +2675,7 @@ class Mission
 							typeName="requireSurrender";
 						};
 					};
-					id=126;
+					id=119;
 					side="LOGIC";
 					vehicle="ace_captives_moduleSettings";
 					leader=1;
@@ -2926,7 +2684,7 @@ class Mission
 				};
 			};
 		};
-		class Item43
+		class Item38
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2934,7 +2692,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5876.7471,83.040001,11400.134};
+					position[]={5892.4634,83.040001,11400.518};
 					class args
 					{
 						items=4;
@@ -2963,7 +2721,7 @@ class Mission
 							typeName="visionModes";
 						};
 					};
-					id=127;
+					id=120;
 					side="LOGIC";
 					vehicle="ace_spectator_moduleSettings";
 					leader=1;
@@ -2972,7 +2730,7 @@ class Mission
 				};
 			};
 		};
-		class Item44
+		class Item39
 		{
 			side="LOGIC";
 			class Vehicles
@@ -2980,7 +2738,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5879.2051,83.040001,11394.402};
+					position[]={5898.3604,83.040001,11400.507};
 					class args
 					{
 						items=4;
@@ -3009,7 +2767,7 @@ class Mission
 							typeName="autoAddEarplugsToUnits";
 						};
 					};
-					id=128;
+					id=121;
 					side="LOGIC";
 					vehicle="ACE_ModuleHearing";
 					leader=1;
@@ -3018,7 +2776,7 @@ class Mission
 				};
 			};
 		};
-		class Item45
+		class Item40
 		{
 			side="LOGIC";
 			class Vehicles
@@ -3026,7 +2784,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5873.9634,83.040001,11397.848};
+					position[]={5873.5171,83.040001,11400.51};
 					class args
 					{
 						items=1;
@@ -3037,7 +2795,7 @@ class Mission
 							typeName="allow";
 						};
 					};
-					id=129;
+					id=122;
 					side="LOGIC";
 					vehicle="ACE_moduleMedicalMenuSettings";
 					leader=1;
@@ -3046,7 +2804,7 @@ class Mission
 				};
 			};
 		};
-		class Item46
+		class Item41
 		{
 			side="LOGIC";
 			class Vehicles
@@ -3054,7 +2812,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5871.4624,83.040001,11397.705};
+					position[]={5871.3364,83.040001,11400.509};
 					class args
 					{
 						items=13;
@@ -3137,7 +2895,7 @@ class Mission
 							typeName="painIsOnlySuppressed";
 						};
 					};
-					id=130;
+					id=123;
 					side="LOGIC";
 					vehicle="ACE_moduleAdvancedMedicalSettings";
 					leader=1;
@@ -3146,7 +2904,7 @@ class Mission
 				};
 			};
 		};
-		class Item47
+		class Item42
 		{
 			side="LOGIC";
 			class Vehicles
@@ -3154,7 +2912,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5871.5952,83.040001,11394.711};
+					position[]={5879.2466,83.040001,11400.502};
 					class args
 					{
 						items=3;
@@ -3177,7 +2935,7 @@ class Mission
 							typeName="amountOfReviveLives";
 						};
 					};
-					id=131;
+					id=124;
 					side="LOGIC";
 					vehicle="ACE_moduleReviveSettings";
 					leader=1;
@@ -3194,7 +2952,7 @@ class Mission
 		{
 			position[]={5573.6045,83.040001,11141.265};
 			azimut=224.59793;
-			id=132;
+			id=125;
 			side="EMPTY";
 			vehicle="ShootingPos_F";
 			skill=0.60000002;
@@ -3204,7 +2962,7 @@ class Mission
 		{
 			position[]={5571.2197,83.040001,11141.279};
 			azimut=224.59793;
-			id=133;
+			id=126;
 			side="EMPTY";
 			vehicle="SignAd_SponsorS_F";
 			skill=0.60000002;
@@ -3214,7 +2972,7 @@ class Mission
 		{
 			position[]={5572.5103,83.040001,11142.739};
 			azimut=314.599;
-			id=134;
+			id=127;
 			side="EMPTY";
 			vehicle="O_supplyCrate_F";
 			skill=0.60000002;
@@ -3225,7 +2983,7 @@ class Mission
 		{
 			position[]={5556.2598,83.040001,11158.147};
 			azimut=224.59793;
-			id=135;
+			id=128;
 			side="EMPTY";
 			vehicle="ShootingPos_F";
 			skill=0.60000002;
@@ -3235,7 +2993,7 @@ class Mission
 		{
 			position[]={5553.9131,83.040001,11158.157};
 			azimut=224.59793;
-			id=136;
+			id=129;
 			side="EMPTY";
 			vehicle="SignAd_SponsorS_F";
 			skill=0.60000002;
@@ -3245,7 +3003,7 @@ class Mission
 		{
 			position[]={5555.2568,83.040001,11159.609};
 			azimut=314.599;
-			id=137;
+			id=130;
 			side="EMPTY";
 			vehicle="O_supplyCrate_F";
 			skill=0.60000002;
@@ -3256,7 +3014,7 @@ class Mission
 		{
 			position[]={5538.6685,83.040001,11175.535};
 			azimut=224.59793;
-			id=138;
+			id=131;
 			side="EMPTY";
 			vehicle="ShootingPos_F";
 			skill=0.60000002;
@@ -3266,7 +3024,7 @@ class Mission
 		{
 			position[]={5536.3101,83.040001,11175.622};
 			azimut=224.59793;
-			id=139;
+			id=132;
 			side="EMPTY";
 			vehicle="SignAd_SponsorS_F";
 			skill=0.60000002;
@@ -3276,7 +3034,7 @@ class Mission
 		{
 			position[]={5537.6372,83.040001,11177.092};
 			azimut=314.599;
-			id=140;
+			id=133;
 			side="EMPTY";
 			vehicle="O_supplyCrate_F";
 			skill=0.60000002;
@@ -3287,7 +3045,7 @@ class Mission
 		{
 			position[]={5520.4121,83.040001,11193.856};
 			azimut=224.59793;
-			id=141;
+			id=134;
 			side="EMPTY";
 			vehicle="ShootingPos_F";
 			skill=0.60000002;
@@ -3297,7 +3055,7 @@ class Mission
 		{
 			position[]={5518.0752,83.040001,11193.924};
 			azimut=224.59793;
-			id=142;
+			id=135;
 			side="EMPTY";
 			vehicle="SignAd_SponsorS_F";
 			skill=0.60000002;
@@ -3307,7 +3065,7 @@ class Mission
 		{
 			position[]={5519.3735,83.040001,11195.343};
 			azimut=314.599;
-			id=143;
+			id=136;
 			side="EMPTY";
 			vehicle="O_supplyCrate_F";
 			skill=0.60000002;
@@ -3318,7 +3076,7 @@ class Mission
 		{
 			position[]={5502.1655,83.040001,11211.272};
 			azimut=224.59793;
-			id=144;
+			id=137;
 			side="EMPTY";
 			vehicle="ShootingPos_F";
 			skill=0.60000002;
@@ -3328,7 +3086,7 @@ class Mission
 		{
 			position[]={5499.8076,83.040001,11211.35};
 			azimut=224.59793;
-			id=145;
+			id=138;
 			side="EMPTY";
 			vehicle="SignAd_SponsorS_F";
 			skill=0.60000002;
@@ -3338,7 +3096,7 @@ class Mission
 		{
 			position[]={5501.1006,83.040001,11212.813};
 			azimut=314.599;
-			id=146;
+			id=139;
 			side="EMPTY";
 			vehicle="O_supplyCrate_F";
 			skill=0.60000002;
@@ -3349,7 +3107,7 @@ class Mission
 		{
 			position[]={5499.4409,83.040001,11033.795};
 			azimut=-497.51718;
-			id=147;
+			id=140;
 			side="EMPTY";
 			vehicle="Land_HelipadEmpty_F";
 			skill=0.60000002;
@@ -3359,7 +3117,7 @@ class Mission
 		{
 			position[]={6259.04,83.002167,11738.539};
 			azimut=225.058;
-			id=148;
+			id=141;
 			side="EMPTY";
 			vehicle="RHS_Mi8mt_vv";
 			skill=0.60000002;
@@ -3370,7 +3128,7 @@ class Mission
 		{
 			position[]={6258.9214,82.974007,11741.337};
 			azimut=225.05797;
-			id=149;
+			id=142;
 			side="EMPTY";
 			vehicle="Land_HelipadEmpty_F";
 			skill=0.60000002;
@@ -3381,7 +3139,7 @@ class Mission
 		{
 			position[]={6242.8613,83.040001,11733.022};
 			azimut=493.34283;
-			id=150;
+			id=143;
 			side="EMPTY";
 			vehicle="Land_Cargo20_grey_F";
 			skill=0.60000002;
@@ -3391,7 +3149,7 @@ class Mission
 		{
 			position[]={5710.2935,83.00515,11185.019};
 			azimut=403.77448;
-			id=151;
+			id=144;
 			side="EMPTY";
 			vehicle="Land_CargoBox_V1_F";
 			skill=0.60000002;
@@ -3401,7 +3159,7 @@ class Mission
 		{
 			position[]={5664.436,83.056778,11154.238};
 			azimut=403.77448;
-			id=152;
+			id=145;
 			side="EMPTY";
 			vehicle="Land_HelipadEmpty_F";
 			skill=0.60000002;
@@ -3411,7 +3169,7 @@ class Mission
 		{
 			position[]={5673.8467,82.906921,11103.734};
 			azimut=312.51501;
-			id=153;
+			id=146;
 			side="EMPTY";
 			vehicle="Land_Cargo20_white_F";
 			skill=0.60000002;
@@ -3421,7 +3179,7 @@ class Mission
 		{
 			position[]={5840.3335,83.040001,11357.095};
 			azimut=404.36801;
-			id=154;
+			id=147;
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
@@ -3432,7 +3190,7 @@ class Mission
 			position[]={5094.3687,94.902298,10653.364};
 			azimut=158;
 			special="NONE";
-			id=155;
+			id=148;
 			side="EMPTY";
 			vehicle="Land_BagBunker_Large_F";
 			leader=1;
@@ -3444,7 +3202,7 @@ class Mission
 			position[]={5081.4883,95.169189,10645.413};
 			azimut=340;
 			special="NONE";
-			id=156;
+			id=149;
 			side="EMPTY";
 			vehicle="RHS_Ural_Civ_01";
 			leader=1;
@@ -3456,7 +3214,7 @@ class Mission
 			position[]={4707.1509,76.696289,11249.671};
 			azimut=-203.62399;
 			special="NONE";
-			id=157;
+			id=150;
 			side="EMPTY";
 			vehicle="rhs_btr70_vmf";
 			lock="UNLOCKED";
@@ -3466,7 +3224,7 @@ class Mission
 		{
 			position[]={5854.5718,83.040001,11343.408};
 			azimut=125.767;
-			id=158;
+			id=151;
 			side="EMPTY";
 			vehicle="Land_PaperBox_open_full_F";
 			skill=0.60000002;
@@ -3477,7 +3235,7 @@ class Mission
 			position[]={5851.2896,83.040001,11346.859};
 			azimut=125.76717;
 			offsetY=-1;
-			id=159;
+			id=152;
 			side="EMPTY";
 			vehicle="Flag_Red_F";
 			skill=0.60000002;
@@ -3487,7 +3245,7 @@ class Mission
 		{
 			position[]={5854.4282,83.040001,11343.211};
 			azimut=125.76717;
-			id=160;
+			id=153;
 			side="EMPTY";
 			vehicle="Flag_Blue_F";
 			skill=0.60000002;
@@ -3497,7 +3255,7 @@ class Mission
 		{
 			position[]={5858.0503,83.040001,11340.122};
 			azimut=128.041;
-			id=161;
+			id=154;
 			side="EMPTY";
 			vehicle="Land_PaperBox_open_full_F";
 			skill=0.60000002;
@@ -3507,7 +3265,7 @@ class Mission
 		{
 			position[]={5857.8945,83.040001,11339.944};
 			azimut=128.04112;
-			id=162;
+			id=155;
 			side="EMPTY";
 			vehicle="Flag_Green_F";
 			skill=0.60000002;
@@ -3517,7 +3275,7 @@ class Mission
 		{
 			position[]={5852.8784,83.040001,11365.678};
 			azimut=315;
-			id=163;
+			id=156;
 			side="EMPTY";
 			vehicle="MASH_EP1";
 			skill=0.60000002;
@@ -3527,17 +3285,17 @@ class Mission
 		{
 			position[]={5851.5073,83.040001,11347.063};
 			azimut=125;
-			id=164;
+			id=157;
 			side="EMPTY";
 			vehicle="Land_PaperBox_open_full_F";
 			skill=0.60000002;
-			init="0 = [""Оружие НА"",getPos this,15,0] spawn bis_fnc_3Dcredits; 0 = [this,[[""RU_EMP"",[[""KR"",""Командир роты""],[""KV"",""Командир взвода""],[""SN"",""Снайпер (СВД)""],[""R"",""Радист""],[""M"",""Санитар""],[""KO"",""Командир Отделения""],[""P"",""Пулемётчик""],[""G"",""Гранатомётчик""],[""PG"",""Помощник Гранатомётчика""],[""SS"",""Старший Стрелок""],[""S"",""Стрелок""],[""T"",""Экипаж""],[""L"",""Лётчик""],[""V"",""Вертолётчик""]]],[""RU_RD"",[[""KO"",""Командир Отделения разведки""],[""SN"",""Снайпер""],[""M"",""Медик""],[""SS"",""Старший Стрелок""],[""S"",""Стрелок""]]],[""RU_MP"",[[""KO"",""Командир отделения МП""],[""SS"",""Старший стрелок""],[""P"",""Пулемётчик""],[""PP"",""Помощник пулемётчик""],[""G"",""Гранатомётчик""],[""PG"",""Помощник гранатомётчик""],[""S"",""Стрелок""]]],[""RU_SNO"",[[""SNOK"",""Командир снайперской пары (Cyrus)""],[""SNO"",""Снайпер (Cyrus)""],[""SNOGDK"",""Командир снайперской пары (Cyrus, Гилли пустыня DLC)""],[""SNOGD"",""Снайпер (Cyrus,Гилли пустыня DLC)""]]]]] execVM ""weapon\core\bgr_action.sqf"";  ";
+			init="0 = [""Оружие НА"",getPos this,15,0] spawn bis_fnc_3Dcredits; 0 = [this,[[""RU_DESERT"",[[""KR"",""Командир роты""],[""KV"",""Командир взвода""],[""SN"",""Снайпер (СВД)""],[""R"",""Радист""],[""M"",""Санитар""],[""KO"",""Командир Отделения""],[""P"",""Пулемётчик""],[""G"",""Гранатомётчик""],[""PG"",""Помощник Гранатомётчика""],[""SS"",""Старший Стрелок""],[""S"",""Стрелок""],[""T"",""Экипаж""],[""L"",""Лётчик""],[""V"",""Вертолётчик""]]],[""RU_RD"",[[""KO"",""Командир Отделения разведки""],[""SN"",""Снайпер""],[""M"",""Медик""],[""SS"",""Старший Стрелок""],[""S"",""Стрелок""]]],[""RU_MP"",[[""KO"",""Командир отделения МП""],[""SS"",""Старший стрелок""],[""P"",""Пулемётчик""],[""PP"",""Помощник пулемётчик""],[""G"",""Гранатомётчик""],[""PG"",""Помощник гранатомётчик""],[""S"",""Стрелок""]]],[""RU_SNO"",[[""SNOK"",""Командир снайперской пары (Cyrus)""],[""SNO"",""Снайпер (Cyrus)""],[""SNOGDK"",""Командир снайперской пары (Cyrus, Гилли пустыня DLC)""],[""SNOGD"",""Снайпер (Cyrus,Гилли пустыня DLC)""]]]]] execVM ""weapon\core\bgr_action.sqf"";  ";
 		};
 		class Item33
 		{
 			position[]={5087.9419,94.874298,10667.855};
 			azimut=158;
-			id=165;
+			id=158;
 			side="EMPTY";
 			vehicle="pzn_rampart";
 			skill=0.60000002;
@@ -3546,7 +3304,7 @@ class Mission
 		{
 			position[]={5096.3105,94.410538,10671.234};
 			azimut=158;
-			id=166;
+			id=159;
 			side="EMPTY";
 			vehicle="pzn_rampart";
 			skill=0.60000002;
@@ -3555,7 +3313,7 @@ class Mission
 		{
 			position[]={5064.3735,95.528023,10658.216};
 			azimut=158;
-			id=167;
+			id=160;
 			side="EMPTY";
 			vehicle="pzn_rampart";
 			skill=0.60000002;
@@ -3564,7 +3322,7 @@ class Mission
 		{
 			position[]={5072.7422,95.120865,10661.595};
 			azimut=158;
-			id=168;
+			id=161;
 			side="EMPTY";
 			vehicle="pzn_rampart";
 			skill=0.60000002;

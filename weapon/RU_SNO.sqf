@@ -9,28 +9,18 @@ _arr=[]; _ok = true;
 
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
-/*
+
 _FormSNO = 'P_Gorka_green';
 _VestSNO = 'PATHuK_smersh_bronik_camo';
 _RucksackSNO = 'P_Ghillie_Suit';
 _CapSNO = 'H_Booniehat_oli';
 _GogglesSNO = 'P_Balaclava_Ghillie';
-*/
-
-_FormSNO = 'rhs_uniform_gorka_r_y';
-_FormSNOGhillie = 'U_I_FullGhillie_ard';
-	
-_VestSNO = 'AFGHAN_V_6B23_Sniper_TAN';
-
-_RucksackSNO = 'rhs_sidor';
-_CapSNO = 'rhs_Booniehat_marpatd';
-_GogglesSNO = 'G_Bandanna_tan';
 
 _PDUSNO = 'rhs_pdu4';
 
 _Pistol = 'rhs_weap_pya';
 _PistolMag = 'rhs_mag_9x19_17';
-_PistolSilencer = 'RH_pmsd';
+_PistolSilencer = '';
 
 _SniperRifle = 'srifle_DMR_05_tan_f';
 _SniperOptics = 'optic_KHS_old';
@@ -44,8 +34,6 @@ _Smokegrenade = 'rhs_mag_rdg2_white';
 _SmokegrenadeRed = 'SmokeShellRed';
 _SmokegrenadeGreen = 'SmokeShellGreen';
 
-_LightGreen = 'rhs_mag_nspn_green';
-_LightRed = 'rhs_mag_nspn_red';
 
 #include "SNOHA.sqf"
 

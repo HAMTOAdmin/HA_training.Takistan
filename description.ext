@@ -2,7 +2,7 @@ respawn=3;
 respawndelay=3;
 respawnVehicleDelay=3;
 respawnDialog = 0;
-respawnTemplates[] = {"Seagull","ace_spectator"};
+respawnTemplates[] = {"Seagull"};
 disabledAI = 1;
 loadScreen = "pics\halogo.jpg";
 

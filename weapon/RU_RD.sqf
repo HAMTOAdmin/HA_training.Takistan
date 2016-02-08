@@ -1,38 +1,34 @@
 #include "DEFAULT.sqf"
 _arr=[]; _ok = true;
 //14.12.2015
-//Our Army (ÂÑ ÐÔ) Special Force
+//Our Army (Ð’Ð¡ Ð Ð¤) Special Force
 
 // ====================================================================================
 //weapon
-//âîîðóæåíèå
+//Ð²Ð¾Ð¾Ñ€ÑƒÐ¶ÐµÐ½Ð¸Ðµ
 
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
-
-
 _W = 'ACE_Altimeter';
 _R = 'tf_fadak';
 
-_Form = 'bear_rhs_uniform_m88_sand';
-_Vest = 'bear_rhs_6b23_sand_6sh92';
-_Bandanna = 'H_Bandanna_sand';
+_Form = 'rhs_uniform_gorka_r_y';
+_Vest = 'AFGHAN_V_6Sh92_TAN';
+_Panama = 'H_Booniehat_khk';
 _Helm = 'rhs_6b27m_ml';
-_Rucksack = 'B_Kitbag_cbr';
-_RadioDV = 'tf_mr3000_bwmod_tropen';
-_Balc = 'G_Balaclava_oli';
-_Scarf ='G_Bandanna_tan';
+_Rucksack = 'bear_rhsusf_assault_eagleaiii_earth';
+_RadioDV = 'tf_mr3000_rhs';
+_Balc = 'rhs_balaclava';
 
-
-_Rifle = 'rhs_weap_ak74m_desert';
-_RifleGL = 'rhs_weap_ak74m_gp25';
-_RifleMag = 'rhs_30Rnd_545x39_7U1_AK';
-_RifleMagT = 'rhs_30Rnd_545x39_AK_green';
-_Optic = 'rhs_acc_pso1m21';
+_Rifle = 'rhs_pzn_weap_akmn';
+_RifleGL = 'rhs_pzn_weap_akmn_gp25';
+_RifleMag = 'rhs_30Rnd_762x39mm';
+_RifleMagT = 'rhs_30Rnd_762x39mm';
+_Optic = 'rhs_acc_pso1m2';
 _NightOptic = 'rhs_acc_1pn93_1';
-_Collim = 'rhs_acc_ekp1b';
+_Collim = '';
 _PSO = 'rhs_acc_pso1m2';
-_DTK = 'rhs_acc_dtk4short';
+_DTK = 'rhs_acc_pbs1';
 
 _Pistol = 'RH_mak';
 _PistolMag = 'RH_8Rnd_9x18_Mak';
@@ -59,13 +55,6 @@ _GLflare = 'rhs_VG40OP_white';
 _GLsmoke = 'rhs_GRD40_White';
 _GLsmokeGreen = 'rhs_GRD40_Green';
 _GLsmokeRed = 'rhs_GRD40_Red';
-
-_LightGreen = 'rhs_mag_nspn_green';
-_LightRed = 'rhs_mag_nspn_red';
-
-
-
-
 
 #include "companyHAspn.sqf"
 

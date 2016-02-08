@@ -46,8 +46,6 @@ _SniperRifle = 'srifle_EBR_F';
 _SniperOptics = 'optic_Hamr';
 _SniperRiflemag = '20Rnd_762x51_Mag';
 
-_LightGreen = 'Chemlight_green';
-
 #include "companyHA.sqf"
 
 ///////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\
