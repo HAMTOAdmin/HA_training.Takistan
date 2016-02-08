@@ -92,7 +92,7 @@ class Mission
 	randomSeed=10610788;
 	class Intel
 	{
-		briefingName="[HA] Тренировочный полигон v1.97dev";
+		briefingName="[HA] Тренировочный полигон v1.97";
 		overviewText="Специально для Нашей Армии";
 		resistanceWest=0;
 		startWeather=0.29999998;
