@@ -10,8 +10,11 @@ _arr=[]; _ok = true;
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
 
-_Form = 'rhs_uniform_vdv_emr_des';
-_FormO = 'rhs_uniform_vdv_emr_des';
+//_Form = 'rhs_uniform_vdv_emr_des';
+//_FormO = 'rhs_uniform_vdv_emr_des';
+_Form = 'TMK_uniform_ODKB';
+_FormO = 'TMK_uniform_ODKB';
+
 _FormL = 'bear_rhs_uniform_m88_sand';
 _VestKR = 'rhs_6b23_digi';
 _VestKV = 'bear_rhs_6b23_desert_flora_6sh92_radio';

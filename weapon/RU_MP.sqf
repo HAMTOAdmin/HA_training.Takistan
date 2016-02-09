@@ -10,27 +10,32 @@ _arr=[]; _ok = true;
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
 
-_Form = 'rhs_uniform_emr_patchless';
-_FormO = 'rhs_uniform_emr_patchless';
-_FormL = 'rhs_uniform_df15';
-_VestKR = 'rhs_vest_commander';
-_VestKV = 'rhs_6b23_digi_6sh92_radio';
-_VestKO = 'rhs_6b23_digi_6sh92_headset_mapcase';
-_Vestm = 'rhs_6b23_digi_medic';
-_VestSN = 'rhs_6b23_digi_sniper';
-_VestSS = 'rhs_6b23_digi_6sh92_vog';
-_VestH = 'rhs_6b23_digi_6sh92';
-_Vest = 'rhs_6b23_digi_rifleman';
-_VestL = 'rhs_6b23_digi_crewofficer';
-_VestC = 'rhs_6b23_digi_crewofficer';
-_Helm = ['rhs_6b27m_digi','rhs_6b27m_digi_ess','rhs_6b28','rhs_6b28_ess'];
-_Cap = 'rhs_fieldcap_digi';
+//_Form = 'rhs_uniform_vdv_emr_des';
+//_FormO = 'rhs_uniform_vdv_emr_des';
+
+_Form = 'TMK_uniform_ODKB';
+_FormO = 'TMK_uniform_ODKB';
+
+_FormL = 'bear_rhs_uniform_m88_sand';
+_VestKR = 'rhs_6b23_digi';
+_VestKV = 'bear_rhs_6b23_desert_flora_6sh92_radio';
+_VestKO = 'bear_rhs_6b23_desert_flora_6sh92_headset_mapcase';
+_Vestm = 'bear_rhs_6b23_desert_flora_medic';
+_VestSN = 'bear_rhs_6b23_desert_flora_sniper';
+_VestSS = 'bear_rhs_6b23_desert_flora_6sh92_vog';
+_VestH = 'bear_rhs_6b23_desert_flora_6sh92';
+_Vest = 'bear_rhs_6b23_desert_flora_rifleman';
+_VestC = 'bear_rhs_6b23_desert_flora_crewofficer';
+_VestL = 'AFGHAN_V_6B23_TAN';
+_Helm = ['bear_rhs_6b27m_desert_flora'];
+_Cap = 'rhs_fieldcap_digi_des';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
 _HelmL = 'rhs_zsh7a_mike';
-_Rucksack = 'rhs_assault_umbts';
+_Rucksack = 'bear_rhsusf_assault_eagleaiii_earth';
 _RucksackRPG = 'rhs_rpg_empty';
 _RadioDV = 'tf_mr3000_rhs';
-_Balc = 'G_Balaclava_oli';
+_Balc = ['rhs_balaclava','rhs_balaclava1_olive'];
+
 
 _Rifle = 'rhs_weap_ak74m';
 _RifleGL = 'rhs_weap_ak74m_gp25';
