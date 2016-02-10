@@ -787,7 +787,7 @@ class Mission
 				class Item0
 				{
 					position[]={5751.0854,83.040001,11267.518};
-					azimut=316.53232;
+					azimut=316.53201;
 					special="NONE";
 					id=30;
 					side="GUER";
@@ -795,85 +795,85 @@ class Mission
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
-					init="this setGroupid [""1MCO, call 110""]; [""CHDKZ"",""KO"",this] call bgr_fnc_ammoLoad;";
+					init="this setGroupid [""1MCO, call 110""]; [""NAPA"",""KO"",this] call bgr_fnc_ammoLoad;";
 					description="Командир отделения";
 				};
 				class Item1
 				{
 					position[]={5749.8506,83.040001,11266.295};
-					azimut=316.53232;
+					azimut=316.53201;
 					special="NONE";
 					id=31;
 					side="GUER";
 					vehicle="I_Soldier_AR_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""CHDKZ"",""P"",this] call bgr_fnc_ammoLoad;";
+					init="[""NAPA"",""P"",this] call bgr_fnc_ammoLoad;";
 					description="Пулеметчик";
 				};
 				class Item2
 				{
 					position[]={5748.4902,83.040001,11265.061};
-					azimut=316.53232;
+					azimut=316.53201;
 					special="NONE";
 					id=32;
 					side="GUER";
 					vehicle="I_Soldier_TL_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""CHDKZ"",""SS"",this] call bgr_fnc_ammoLoad;";
+					init="[""NAPA"",""SS"",this] call bgr_fnc_ammoLoad;";
 					description="Старший стрелок";
 				};
 				class Item3
 				{
 					position[]={5747.123,83.040001,11263.676};
-					azimut=316.53232;
+					azimut=316.53201;
 					special="NONE";
 					id=33;
 					side="GUER";
 					vehicle="I_Soldier_AT_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""CHDKZ"",""G"",this] call bgr_fnc_ammoLoad;";
+					init="[""NAPA"",""G"",this] call bgr_fnc_ammoLoad;";
 					description="Гранатометчик";
 				};
 				class Item4
 				{
 					position[]={5745.7891,83.040001,11262.355};
-					azimut=316.53232;
+					azimut=316.53201;
 					special="NONE";
 					id=34;
 					side="GUER";
 					vehicle="I_Soldier_A_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""CHDKZ"",""PG"",this] call bgr_fnc_ammoLoad;";
+					init="[""NAPA"",""PG"",this] call bgr_fnc_ammoLoad;";
 					description="Помощник гранатометчика";
 				};
 				class Item5
 				{
 					position[]={5744.3491,83.040001,11260.957};
-					azimut=316.53232;
+					azimut=316.53201;
 					special="NONE";
 					id=35;
 					side="GUER";
 					vehicle="I_soldier_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""CHDKZ"",""S"",this] call bgr_fnc_ammoLoad;";
+					init="[""NAPA"",""S"",this] call bgr_fnc_ammoLoad;";
 					description="Стрелок";
 				};
 				class Item6
 				{
 					position[]={5743.0361,83.040001,11259.645};
-					azimut=316.53232;
+					azimut=316.53201;
 					special="NONE";
 					id=36;
 					side="GUER";
 					vehicle="I_soldier_F";
 					player="PLAY CDG";
 					skill=0.60000002;
-					init="[""CHDKZ"",""S"",this] call bgr_fnc_ammoLoad;";
+					init="[""NAPA"",""S"",this] call bgr_fnc_ammoLoad;";
 					description="Стрелок";
 				};
 			};
@@ -2768,7 +2768,7 @@ class Mission
 						items=3;
 						class Item0
 						{
-							value="2";
+							value="0";
 							parentCls="ACE_moduleReviveSettings";
 							typeName="enableRevive";
 						};
@@ -3377,7 +3377,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_PaperBox_open_full_F";
 			skill=0.60000002;
-			init="0 = [""Оружие ЧДКЗ"",getPos this,15,0] spawn bis_fnc_3Dcredits; 0 = [this,[[""ЧДКЗ"",""CHDKZ"",[[""KR"",""Командир роты""],[""KV"",""Командир взвода""],[""SN"",""Снайпер""],[""R"",""Радист""],[""M"",""Санитар""],[""KO"",""Командир Отделения""],[""P"",""Пулемётчик""],[""G"",""Гранатомётчик""],[""PG"",""Помощник Гранатомётчика""],[""SS"",""Старший Стрелок""],[""S"",""Стрелок""],[""T"",""Экипаж""],[""L"",""Лётчик""],[""V"",""Вертолётчик""],[""A"",""Автоматчик""]]],[""Группа PMC"",""PMC"",[[""KR"",""Командир роты""],[""KV"",""Командир взвода""],[""SN"",""Снайпер""],[""R"",""Радист""],[""M"",""Санитар""],[""KO"",""Командир Отделения""],[""P"",""Пулемётчик""],[""G"",""Гранатомётчик""],[""PG"",""Помощник Гранатомётчика""],[""SS"",""Старший Стрелок""],[""S"",""Стрелок""],[""T"",""Экипаж""],[""L"",""Лётчик""],[""V"",""Вертолётчик""],[""A"",""Автоматчик""]]]]] execVM ""weapon\core\bgr_action.sqf"";";
+			init="0 = [""Оружие NAPA"",getPos this,15,0] spawn bis_fnc_3Dcredits; 0 = [this,[[""NAPA"",""NAPA"",[[""KR"",""Командир роты""],[""KV"",""Командир взвода""],[""SN"",""Снайпер""],[""R"",""Радист""],[""M"",""Санитар""],[""KO"",""Командир Отделения""],[""P"",""Пулемётчик""],[""G"",""Гранатомётчик""],[""PG"",""Помощник Гранатомётчика""],[""SS"",""Старший Стрелок""],[""S"",""Стрелок""],[""T"",""Экипаж""],[""L"",""Лётчик""],[""V"",""Вертолётчик""],[""A"",""Автоматчик""]]],[""Группа PMC"",""PMC"",[[""KR"",""Командир роты""],[""KV"",""Командир взвода""],[""SN"",""Снайпер""],[""R"",""Радист""],[""M"",""Санитар""],[""KO"",""Командир Отделения""],[""P"",""Пулемётчик""],[""G"",""Гранатомётчик""],[""PG"",""Помощник Гранатомётчика""],[""SS"",""Старший Стрелок""],[""S"",""Стрелок""],[""T"",""Экипаж""],[""L"",""Лётчик""],[""V"",""Вертолётчик""],[""A"",""Автоматчик""]]]]] execVM ""weapon\core\bgr_action.sqf"";";
 		};
 		class Item30
 		{

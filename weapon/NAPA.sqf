@@ -1,7 +1,7 @@
 #include "DEFAULT.sqf"
 _arr=[]; _ok = true;
-//17.08.2015 (дата)
-//ЧСО (войска)
+//хх.хх.20хх (дата)
+//ХХХ ХХХ (войска)
 
 // ====================================================================================
 //weapon
@@ -10,26 +10,25 @@ _arr=[]; _ok = true;
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
 
-_Form = 'LOP_U_CDF_Fatigue_01';
-_FormO = 'LOP_U_CDF_Fatigue_01';
-_FormL = 'LOP_U_CDF_Fatigue_01';
+_Form = ['LOP_U_NAPA_Fatigue_01','LOP_U_NAPA_Fatigue_02','LOP_U_NAPA_Fatigue_03'];
+_FormO = 'LOP_U_NAPA_Fatigue_04';
+_FormL = 'U_I_HeliPilotCoveralls';
 _VestKR = 'rhs_vest_commander';
-_VestKV = 'bear_rhs_6b23_sand_6sh92_radio';
-_VestKO = 'bear_rhs_6b23_sand_6sh92_headset_mapcase';
-_Vestm = 'bear_rhs_6b23_sand_medic';
-_VestSN = 'bear_rhs_6b23_sand_sniper';
-_VestSS = 'bear_rhs_6b23_sand_6sh92_vog';
-_VestH = 'bear_rhs_6b23_sand_6sh92';
-_Vest = 'bear_rhs_6b23_sand_rifleman';
-_VestC = 'bear_rhs_6b23_sand_crewofficer';
-_VestL = 'bear_rhs_6sh92_sand';
-_Helm = 'LOP_H_6B27M_CDF';
-_Cap = 'LOP_H_Fieldcap_CDF';
+_VestKV = 'rhs_vest_commander';
+_VestKO = 'rhs_6sh46';
+_Vestm = 'rhs_6sh46';
+_VestSN = 'rhs_6sh46';
+_VestSS = 'rhs_6sh46';
+_VestH = 'rhs_6sh46';
+_Vest = 'rhs_6sh46';
+_VestL = 'rhs_6sh46';
+_Helm = 'G_Balaclava_oli';
+_Cap = 'LOP_H_Cowboy_hat';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
 _HelmL = 'rhs_zsh7a_mike';
-_Rucksack = 'rhs_sidor';
+_Rucksack = 'B_Kitbag_rgr';
 _RucksackRPG = 'rhs_rpg_empty';
-_RadioDV = 'tf_mr3000';
+_RadioDV = 'tf_mr3000_rhs';
 _Balc = 'G_Balaclava_oli';
 
 _Rifle = 'rhs_weap_m16a4';
@@ -39,7 +38,7 @@ _RifleMag = 'rhs_mag_30Rnd_556x45_M855A1_Stanag';
 _RifleMagT = 'rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red';
 _Optic = 'rhsusf_acc_ACOG';
 _NightOptic = 'optic_NVS';
-_Collim = '';
+_Collim = 'rhsusf_acc_compm4';
 _DTK = 'rhsusf_acc_SFMB556';
 _RifleSilencer = 'rhsusf_acc_nt4_black';
 
@@ -80,7 +79,6 @@ _GLsmokeRed = 'rhs_mag_m713_Red';
 
 _LightGreen = 'Chemlight_green';
 _LightRed = 'Chemlight_red';
-
 
 #include "companyHA.sqf"
 

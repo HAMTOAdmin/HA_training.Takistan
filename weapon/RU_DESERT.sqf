@@ -25,7 +25,7 @@ _VestSS = 'bear_rhs_6b23_desert_flora_6sh92_vog';
 _VestH = 'bear_rhs_6b23_desert_flora_6sh92';
 _Vest = 'bear_rhs_6b23_desert_flora_rifleman';
 _VestC = 'bear_rhs_6b23_desert_flora_crewofficer';
-_VestL = 'AFGHAN_V_6B23_TAN';
+_VestL = 'rhs_6sh92';
 _Helm = ['bear_rhs_6b27m_desert_flora','bear_rhs_6b27m_desert_flora_ess'];
 _Cap = 'rhs_fieldcap_digi_des';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
@@ -33,7 +33,7 @@ _HelmL = 'rhs_zsh7a_mike';
 _Rucksack = 'bear_rhsusf_assault_eagleaiii_earth';
 _RucksackRPG = 'rhs_rpg_empty';
 _RadioDV = 'tf_mr3000_rhs';
-_Balc = ['rhs_balaclava','rhs_balaclava1_olive'];
+_Balc = 'rhs_balaclava';
 
 _Rifle = 'rhs_weap_ak74m';
 _RifleGL = 'rhs_weap_ak74m_gp25';
