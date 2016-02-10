@@ -2774,7 +2774,7 @@ class Mission
 						};
 						class Item1
 						{
-							value="120";
+							value="2";
 							parentCls="ACE_moduleReviveSettings";
 							typeName="maxReviveTime";
 						};
