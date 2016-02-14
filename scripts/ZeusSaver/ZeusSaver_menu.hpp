@@ -266,7 +266,7 @@ class ZeusSaver_Menu
 
        class pict:ZSPicture
         {
-          text = "pics/zz.jpg";
+          text = "pics\zz.paa";
           x = safeZoneX+safeZoneW*0.308;
           y = safeZoneY+safeZoneH*0.106;
           w = 0.10;

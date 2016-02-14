@@ -3397,7 +3397,7 @@ class Mission
 			side="EMPTY";
 			vehicle="MASH_EP1";
 			skill=0.60000002;
-			init="0 = [""Наблюдение"",getPos this,15,0] spawn bis_fnc_3Dcredits; 0 = this addAction [""Спектатор, выход по F10"",""scripts\ace_spect.sqf""]; this allowDamage false;";
+			init="this addAction [   ""<t color='#00ff00'>Наблюдение</t>"",   ""spectator.sqf"",   [],   0,   false,   true,   """",   ""_this distance _target < 6""]; this allowDamage false;";
 			syncId=7;
 			synchronizations[]={6};
 		};
