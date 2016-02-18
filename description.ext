@@ -4,7 +4,7 @@ respawnVehicleDelay=3;
 respawnDialog = 0;
 respawnTemplates[] = {"Seagull"};
 disabledAI = 1;
-loadScreen = "pics\halogo.jpg";
+loadScreen = "pics\halogo.paa";
 
 enableDebugConsole = 1;
 
