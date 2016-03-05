@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.017453292;
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=129;
 	class ItemIDProvider
 	{
 		nextID=633;
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5775.8853,88.157242,11307.76};
+		pos[]={5780.2808,88.157242,11320.655};
 		dir[]={0.74763739,-0.42842647,-0.5075087};
 		up[]={0.35449478,0.9035607,-0.24063605};
 		aside[]={-0.56166011,6.7055225e-008,-0.82741213};
@@ -113,7 +113,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=103;
+		items=102;
 		class Item0
 		{
 			dataType="Marker";
@@ -3045,115 +3045,6 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5847.3853,83.040001,11395.295};
-			};
-			id=186;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="zeus10";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleInfo";
-					expression="false";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=3;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item75
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
 				position[]={5896.4443,83.040001,11400.502};
 			};
 			id=187;
@@ -3182,7 +3073,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item76
+		class Item75
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3234,7 +3125,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item77
+		class Item76
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3343,7 +3234,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item78
+		class Item77
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3414,7 +3305,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item79
+		class Item78
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3504,7 +3395,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item80
+		class Item79
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3537,7 +3428,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item81
+		class Item80
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3798,7 +3689,7 @@ class Mission
 				nAttributes=13;
 			};
 		};
-		class Item82
+		class Item81
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -3869,7 +3760,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item83
+		class Item82
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4016,7 +3907,7 @@ class Mission
 				nAttributes=7;
 			};
 		};
-		class Item84
+		class Item83
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4049,7 +3940,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item85
+		class Item84
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4101,7 +3992,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item86
+		class Item85
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4229,7 +4120,7 @@ class Mission
 				nAttributes=6;
 			};
 		};
-		class Item87
+		class Item86
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -4433,7 +4324,7 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item88
+		class Item87
 		{
 			dataType="Group";
 			side="West";
@@ -4570,7 +4461,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5789.0693,83.122169,11310.689};
+						position[]={5789.0688,83.122444,11310.689};
 						angles[]={0,5.497787,0};
 					};
 					side="West";
@@ -4579,6 +4470,7 @@ class Mission
 					{
 						rank="CORPORAL";
 						init="[""USMC_DESERT"",""M"",this] call bgr_fnc_ammoLoad;";
+						name="medic3";
 						description="Медик";
 						isPlayable=1;
 					};
@@ -4633,7 +4525,7 @@ class Mission
 			};
 			id=507;
 		};
-		class Item89
+		class Item88
 		{
 			dataType="Group";
 			side="West";
@@ -5198,7 +5090,7 @@ class Mission
 			};
 			id=511;
 		};
-		class Item90
+		class Item89
 		{
 			dataType="Group";
 			side="West";
@@ -5763,7 +5655,7 @@ class Mission
 			};
 			id=521;
 		};
-		class Item91
+		class Item90
 		{
 			dataType="Group";
 			side="West";
@@ -6328,7 +6220,7 @@ class Mission
 			};
 			id=531;
 		};
-		class Item92
+		class Item91
 		{
 			dataType="Group";
 			side="Independent";
@@ -6901,7 +6793,7 @@ class Mission
 			};
 			id=541;
 		};
-		class Item93
+		class Item92
 		{
 			dataType="Group";
 			side="East";
@@ -7244,7 +7136,7 @@ class Mission
 			};
 			id=549;
 		};
-		class Item94
+		class Item93
 		{
 			dataType="Group";
 			side="East";
@@ -7347,7 +7239,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""1MCB, call 100""]; [""RU_DESERT"",""KV"",this] call bgr_fnc_ammoLoad;";
-						name="zeus7_4";
+						name="zeus7";
 						description="Командир МСВ (Zeus)";
 						isPlayable=1;
 					};
@@ -7665,7 +7557,7 @@ class Mission
 			};
 			id=554;
 		};
-		class Item95
+		class Item94
 		{
 			dataType="Group";
 			side="East";
@@ -8401,7 +8293,7 @@ class Mission
 			};
 			id=560;
 		};
-		class Item96
+		class Item95
 		{
 			dataType="Group";
 			side="East";
@@ -9137,7 +9029,7 @@ class Mission
 			};
 			id=570;
 		};
-		class Item97
+		class Item96
 		{
 			dataType="Group";
 			side="East";
@@ -9873,7 +9765,7 @@ class Mission
 			};
 			id=580;
 		};
-		class Item98
+		class Item97
 		{
 			dataType="Group";
 			side="East";
@@ -9967,7 +9859,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5847.4385,83.041443,11330.585};
+						position[]={5847.438,83.041443,11330.585};
 						angles[]={0,0.78539819,0};
 					};
 					side="East";
@@ -9976,7 +9868,7 @@ class Mission
 						skill=0.60000002;
 						rank="LIEUTENANT";
 						init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_RD"",""KO"",this] call bgr_fnc_ammoLoad; removeGoggles this;";
-						name="zeus4_5";
+						name="zeus4";
 						description="Командир оСпН (Zeus)";
 						isPlayable=1;
 					};
@@ -10049,7 +9941,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5846.3066,83.041443,11331.714};
+						position[]={5846.3071,83.041443,11331.714};
 						angles[]={0,0.78539819,0};
 					};
 					side="East";
@@ -10058,7 +9950,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						init="[""RU_RD"",""M"",this] call bgr_fnc_ammoLoad;";
-						name="medic1_5";
+						name="medic1";
 						description="Разведчик-санинструктор";
 						isPlayable=1;
 					};
@@ -10537,7 +10429,7 @@ class Mission
 			};
 			id=590;
 		};
-		class Item99
+		class Item98
 		{
 			dataType="Group";
 			side="East";
@@ -10631,7 +10523,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5845.8818,83.041466,11329.029};
+						position[]={5845.8818,83.041443,11329.03};
 						angles[]={0,0.78539819,0};
 					};
 					side="East";
@@ -10640,7 +10532,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_DESERT"",""T"",this] call bgr_fnc_ammoLoad;";
-						name="zeus5_5";
+						name="zeus5";
 						description="Командир БТВ (Zeus)";
 						isPlayable=1;
 					};
@@ -11117,7 +11009,7 @@ class Mission
 			};
 			id=598;
 		};
-		class Item100
+		class Item99
 		{
 			dataType="Group";
 			side="East";
@@ -11220,7 +11112,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_DESERT"",""KO"",this] call bgr_fnc_ammoLoad;";
-						name="zeus8_5";
+						name="zeus8";
 						description="Командир МП (Zeus)";
 						isPlayable=1;
 					};
@@ -11775,7 +11667,7 @@ class Mission
 			};
 			id=606;
 		};
-		class Item101
+		class Item100
 		{
 			dataType="Group";
 			side="East";
@@ -11869,7 +11761,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5855.501,83.1222,11329.923};
+						position[]={5855.501,83.122444,11329.923};
 						angles[]={0,5.497787,0};
 					};
 					side="East";
@@ -11878,7 +11770,7 @@ class Mission
 						skill=0.60000002;
 						rank="CAPTAIN";
 						init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_DESERT"",""V"",this] call bgr_fnc_ammoLoad;";
-						name="zeus6_5";
+						name="zeus6";
 						description="Командир АЭ (Zeus)";
 						isPlayable=1;
 					};
@@ -12114,7 +12006,7 @@ class Mission
 			};
 			id=615;
 		};
-		class Item102
+		class Item101
 		{
 			dataType="Group";
 			side="East";
@@ -12217,7 +12109,7 @@ class Mission
 						skill=0.60000002;
 						rank="SERGEANT";
 						init="this setVariable[""bgr_tren_dolznost"",2]; [""RU_DESERT"",""SNO"",this] call bgr_fnc_ammoLoad;";
-						name="zeus9_4";
+						name="zeus9";
 						description="Командир СнО (Zeus) (СВД)";
 						isPlayable=1;
 					};
