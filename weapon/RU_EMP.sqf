@@ -76,10 +76,6 @@ _GLsmokeGreen = 'rhs_GRD40_Green';
 _GLsmokeRed = 'rhs_GRD40_Red';
 
 
-_LightGreen = 'rhs_mag_nspn_green';
-_LightRed = 'rhs_mag_nspn_red';
-
-
 #include "companyHA.sqf"
 
 ///////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\

@@ -5,6 +5,7 @@ _R = 'ItemRadio';
 _G = 'ItemGPS';
 _Binocular = 'Binocular';
 _Rangefinder = 'rhs_pdu4';
+_LightGreen = 'Chemlight_green';
 
 
 // Медицина ACE
@@ -40,6 +41,8 @@ _Remote = 'ACE_Clacker';
 _Explosive = 'DemoCharge_Remote_Mag';
 _TripwireMine = 'APERSTripMine_Wire_Mag';
 _Wirecutter = 'ACE_wirecutter';
+_Shovel = 'ACE_EntrenchingTool';
+_CableTie = 'ACE_CableTie';
 
 /////////////////////////////////
 _items = [];

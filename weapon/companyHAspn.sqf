@@ -38,8 +38,6 @@ switch _this do {
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
-				_DefKit,
-				_Remote,
 				_Flashlight
 			]];
 		_vests = 
@@ -47,15 +45,19 @@ switch _this do {
 				[_RifleMag, 2],
 				[_RifleMagT, 2],
 				[_Grenade, 2],
-				[_Smokegrenade, 2]
+				[_Smokegrenade, 2],
+				_Nvg
 			]];
 		_rucks = 
 			[_RadioDV,[
+				[_RifleSilencer, 1],
+				[_Helm, 1],
 				[_GLgrenade, 10],
 				[_RifleMag, 4],
 				[_SmokegrenadeGreen, 1],
 				[_SmokegrenadeRed, 1],
-				_Nvg
+				[_CableTie, 2],
+				[_Shovel, 1]
 			]];
 	};
 
@@ -76,26 +78,26 @@ switch _this do {
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
-				_DefKit,
-				_Remote,
 				_Flashlight
 			]];
 		_vests = 
 			[_Vest,[
-				[_Grenade, 2],
-				[_Smokegrenade, 2],
+				[_Grenade, 3],
+				[_Smokegrenade, 3],
 				[_SniperRiflemag, 4]
 			]];
 		_rucks = 
 			[_Rucksack,[
+				[_RifleSilencer, 1],
+				[_Helm, 1],
 				[_SniperRiflemag, 4],
-				[_Grenade, 2],
-				[_Smokegrenade, 2],
 				[_SmokegrenadeGreen, 1],
 				[_SmokegrenadeRed, 1],
 				[_TripwireMine, 2],
+				[_CableTie, 2],
 				_NightOptic,
-				_Nvg
+				_Nvg,
+				[_Shovel, 1]
 			]];
 	};
 	
@@ -106,8 +108,8 @@ switch _this do {
 		_items = _items+[_Panama];
 		_weapPrim = [_Rifle,[_Collim,_DTK]];
 		_uniforms set [1, (_uniforms select 1)+[
+				[_RifleMag, 1],
 				[_Earplugs, 1],
-				[_PistolMag, 1],
 				[_Bandage, 4],
 				[_BandageElastic, 4],
 				[_PackingBandage, 4],
@@ -115,20 +117,20 @@ switch _this do {
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
-				_DefKit,
-				_Remote,
 				_Flashlight
 		]];
 		_vests = 
 			[_Vest,(_vests select 1)+[
-				[_Grenade, 2],
-				[_Smokegrenade, 2],
+				[_Grenade, 3],
+				[_Smokegrenade, 3],
 				[_RifleMag, 2],
 				[_RifleMagT, 2]
 			]];
 		_rucks = 
 			[_Rucksack,[
-				[_Smokegrenade, 2],
+				[_RifleSilencer, 1],
+				[_Helm, 1],
+				[_RifleMag, 4],
 				[_Bandage, 10],
 				[_BandageElastic, 15],
 				[_PackingBandage, 15],
@@ -140,7 +142,8 @@ switch _this do {
 				[_SalineBag500, 6],
 				[_PersonalAidKit, 1],
 				[_SurgicalKit, 1],
-				_Nvg
+				_Nvg,
+				[_Shovel, 1]
 			]];
 	};
 	
@@ -150,8 +153,9 @@ switch _this do {
 	case "SS" : {
 		_items = _items+[_Panama,_Binocular,_G];
 		_weapSecd = [_RPGO,[]];
-		_weapPrim = [_Rifle,[_optic,_DTK]];
+		_weapPrim = [_RifleGL,[_optic,_DTK]];
 		_uniforms set [1, (_uniforms select 1)+[
+				[_RifleMag, 1],
 				[_Earplugs, 1],
 				[_Bandage, 4],
 				[_BandageElastic, 4],
@@ -160,28 +164,27 @@ switch _this do {
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
-				_DefKit,
-				_Remote,
 				_Flashlight
 				]];
 		_vests = 
 			[_Vest,(_vests select 1)+[
-				[_Grenade, 2],
-				[_Smokegrenade, 2],
+				[_Grenade, 3],
+				[_Smokegrenade, 3],
 				[_RifleMag, 2],
 				[_RifleMagT, 2]
 			]];
 		_rucks = 
 			[_Rucksack,[
+				[_RifleSilencer, 1],
+				[_Helm, 1],
 				[_GLgrenade, 10],
 				[_RifleMag, 4],
-				[_Smokegrenade, 2],
-				[_Grenade, 2],
 				[_SmokegrenadeGreen, 1],
 				[_SmokegrenadeRed, 1],
-				[_Explosive, 2],
+				[_CableTie, 2],
 				_NightOptic,
-				_Nvg
+				_Nvg,
+				[_Shovel, 1]
 			]];
 	};
 
@@ -193,8 +196,8 @@ switch _this do {
 		_weapPrim = [_Rifle,[_Collim,_DTK]];
 		_weapSecd = [_RPGO,[]];
 		_uniforms set [1, (_uniforms select 1)+[
+				[_RifleMag, 1],
 				[_Earplugs, 1],
-				[_PistolMag, 1],
 				[_Bandage, 4],
 				[_BandageElastic, 4],
 				[_PackingBandage, 4],
@@ -202,28 +205,68 @@ switch _this do {
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
-				_DefKit,
-				_Remote,
 				_Flashlight
 			]];
 		_vests = 
 			[_Vest,(_vests select 1)+[
-				[_Grenade, 2],
-				[_Smokegrenade, 2],
+				[_Grenade, 3],
+				[_Smokegrenade, 3],
 				[_RifleMag, 2],
 				[_RifleMagT, 2]
 			]];
 		_rucks = 
 			[_Rucksack,[
+				[_RifleSilencer, 1],
+				[_Helm, 1],
 				[_RifleMag, 4],
-				[_Grenade, 2],
-				[_Smokegrenade, 2],
 				[_SmokegrenadeGreen, 1],
 				[_SmokegrenadeRed, 1],
-				[_Explosive, 2],
-				_Nvg
+				[_CableTie, 2],
+				_Nvg,
+				[_Shovel, 1]
 			]];
 	};
+	
+	
+	//Recon
+	//Разведчик Сапер
+	case "SA" : {
+		_items = _items+[_Panama];
+		_weapPrim = [_Rifle,[_Collim,_DTK]];
+		_uniforms set [1, (_uniforms select 1)+[
+				[_RifleMag, 1],
+				[_Earplugs, 1],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
+				[_Morphine, 3],
+				[_Epinephrine, 1],
+				[_Tourniquet, 1],
+				_Flashlight
+			]];
+		_vests = 
+			[_Vest,(_vests select 1)+[
+				[_Grenade, 3],
+				[_Smokegrenade, 3],
+				[_RifleMag, 2],
+				[_RifleMagT, 2]
+			]];
+		_rucks = 
+			[_Rucksack,[
+				[_RifleSilencer, 1],
+				[_Helm, 1],
+				[_RifleMag, 4],
+				[_SmokegrenadeGreen, 1],
+				[_SmokegrenadeRed, 1],
+				[_Explosive, 3],
+				[_CableTie, 2],
+				[_Remote, 1],
+                [_Wirecutter, 1],
+				_Nvg,
+				[_Shovel, 1]
+			]];
+	};	
 	
 ///////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 //////////////DO NOT CHANGE AFTER THIS LINE\\\\\\\\\\\\

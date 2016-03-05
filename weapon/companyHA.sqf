@@ -23,12 +23,11 @@ switch _this do {
 		_weapHand = [_Pistol,[]];
 		_uniforms = [_FormO, (_uniforms select 1)+[
 				"G_Aviator",
-				[_BERUSHI, 1],
 				[_Maptools, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 2],
 				[_Tourniquet, 2],
@@ -47,12 +46,11 @@ switch _this do {
 		_items = _items+[_Helm,_Binocular,_G];
 		_weapHand = [_Pistol,[]];
 		_uniforms = [_FormO, (_uniforms select 1)+[
-				[_BERUSHI, 1],
 				[_Maptools, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
@@ -62,15 +60,15 @@ switch _this do {
 		_vests = 
 			[_VestKV,(_vests select 1)+[
 				[_RifleMag, 2],
+				[_RifleMagT, 2],
 				[_Grenade, 2],
 				[_Smokegrenade, 2],
-				[_PistolMag, 2],
 				_Nvg
 			]];
 		_rucks = 
 			[_RadioDV,[
-				[_RifleMag, 3],
-				[_RifleMagT, 2],
+				[_RifleMag, 4],
+				[_PistolMag, 2],
 				[_LightGreen, 1]
 			]];
 	};
@@ -81,12 +79,11 @@ switch _this do {
 		_weapPrim = [_SniperRifle,[_SniperOptics]];
 		_weapHand = [_Pistol,[]];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
 				[_Maptools, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
@@ -97,17 +94,17 @@ switch _this do {
 			[_VestSN,[
 				[_Smokegrenade, 2],
 				[_Grenade, 2],
-				[_SniperRiflemag, 1],
-				[_Grenade, 2],
+				[_SniperRiflemag, 4],
 				_Nvg
 			]];
 		_rucks = 
 			[_Rucksack,[
-				[_SniperRiflemag, 6],
+				[_SniperRiflemag, 4],
 				[_PistolMag, 2],
-				[_Apm, 2],
+				[_TripwireMine, 2],
 				[_LightGreen, 1],
-				_NightOptic
+				_NightOptic,
+				[_Shovel, 1]
 			]];
 	};
 	//Platoon Sniper
@@ -117,12 +114,11 @@ switch _this do {
 		_weapPrim = [_SniperRifle,[_SniperOptics]];
 		_weapHand = [_Pistol,[]];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
 				[_Maptools, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
@@ -143,7 +139,8 @@ switch _this do {
 				[_PistolMag, 2],
 				[_Apm, 2],
 				[_LightGreen, 1],
-				_NightOptic
+				_NightOptic,
+				[_Shovel, 1]
 			]];
 	};
 	//RTO
@@ -151,12 +148,11 @@ switch _this do {
 	case "R" : {
 		_items = _items+[_Helm,_Binocular,_G];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
 				[_Maptools, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
@@ -174,7 +170,8 @@ switch _this do {
 			[_RadioDV,[
 				[_RifleMag, 3],
 				[_RifleMagT, 2],
-				[_LightGreen, 1]
+				[_LightGreen, 1],
+				[_Shovel, 1]
 			]];
 	};
 	//Medic
@@ -182,15 +179,13 @@ switch _this do {
 	case "M" : {
 		_items = _items+[_Helm];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
-				[_Smokegrenade, 1],
 				[_RifleMag, 1]
 		]];
 		_vests = 
@@ -214,7 +209,8 @@ switch _this do {
 				[_SalineBag500, 6],
 				[_PersonalAidKit,1],
 				[_SurgicalKit,1],
-				[_RifleMag, 2]
+				[_RifleMagT, 1],
+				[_Shovel, 1]
 			]];
 	};
 	//Squad leader
@@ -223,18 +219,16 @@ switch _this do {
 		_items = _items+[_Helm,_Binocular,_G];
 		_weapPrim = [_RifleGL,[_Collim,_DTK]];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
 				[_Maptools, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
 				_Flashlight,
-				[_RifleMag, 1],
-				[_GLgrenade, 1]
+				[_RifleMag, 1]
 			]];
 		_vests = 
 			[_VestKO,(_vests select 1)+[
@@ -246,13 +240,10 @@ switch _this do {
 		_rucks = 
 			[_RadioDV,[
 				[_GLgrenade, 10],
-				[_RifleMag, 3],
-				[_GLflare, 3],
-				[_GLsmoke, 2],
-				[_GLsmokeGreen, 2],
-				[_GLsmokeRed, 2],
+				[_RifleMag, 4],
 				[_LightGreen, 1],
-				[_Nvg, 2]
+				[_Nvg, 2],
+				[_Shovel, 1]
 			]];
 	};
 	//Mashine Gunner
@@ -261,15 +252,15 @@ switch _this do {
 		_items = _items+[_Helm];
 		_weapPrim = [_MG];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Earplugs, 1],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
-				[_Smokegrenade, 1]
+				[_Shovel, 1]
 			]];
 		_vests = 
 			[_VestH,[
@@ -299,44 +290,43 @@ switch _this do {
 		_vests = 
 			[_Vest,(_vests select 1)+[
 				[_RifleMag, 2],
+				[_RifleMagT, 2],
 				[_Smokegrenade, 2],
-				[_Grenade, 2],
-				_Nvg
+				[_Grenade, 2]
 			]];
 		_rucks = 
 			[_Rucksack,[
-				[_RifleMag, 3],
-				[_RifleMagT, 2],
-				[_Grenade, 2],
-				[_Smokegrenade, 2],
+				[_RifleMag, 4],
 				[_LightGreen,1],
-				[_MGmag, 1]
+				[_MGmag, 1],
+				_Nvg,
+				[_Shovel, 1]
 			]];
 	};
 	//AR Gunner
 	//Автоматчик 
 	case "A" : {
 		_items = _items+[_Helm];
-		_weapPrim = [_AR,[_Collim]];
+		_weapPrim = [_MG];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Earplugs, 1],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
-				[_Tourniquet, 1]
+				[_Tourniquet, 1],
+				[_Shovel, 1]
 			]];
 		_vests = 
 			[_VestH,[
-				[_ARmag, 2],
-				[_Smokegrenade, 1]
+				[_MGmag, 2]
 			]];
 		_rucks = 
 			[_Rucksack,[
-				[_ARmag, 2],
-				[_LightGreen, 1]
+				[_MGmag, 2],
+				[_Grenade, 2]
 			]];
 	};
 	//AR ass.
@@ -357,58 +347,51 @@ switch _this do {
 		_vests = 
 			[_Vest,(_vests select 1)+[
 				[_RifleMag, 2],
+				[_RifleMagT, 2],
 				[_Smokegrenade, 2],
-				[_Grenade, 2],
-				_Nvg
+				[_Grenade, 2]
 			]];
 		_rucks = 
 			[_Rucksack,[
-				[_RifleMag, 3],
-				[_RifleMagT, 2],
-				[_Grenade, 2],
-				[_Smokegrenade, 2],
-				[_LightGreen, 1],
-				[_ARmag, 1]
+				[_RifleMag, 4],
+				[_LightGreen,1],
+				[_MGmag, 1],
+				_Nvg,
+				[_Shovel, 1]
 			]];
 	};
-	//Team leader
 	//старший стрелок
 	case "SS" : {
 		_items = _items+[_Helm,_Binocular,_G];
 		_weapSecd = [_RPGO,[]];
 		_weapPrim = [_RifleGL,[_optic,_DTK]];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
 				_Flashlight,
-				[_RifleMag, 1],
-				[_GLgrenade, 1]
+				[_RifleMag, 1]
 				]];
 		_vests = 
 			[_VestSS,(_vests select 1)+[
 				[_RifleMag, 2],
 				[_RifleMagT, 2],
-				[_Smokegrenade, 3],
-				[_Grenade, 3]
+				[_Smokegrenade, 2],
+				[_Grenade, 2]
 			
 			]];
 		_rucks = 
 			[_Rucksack,[
 				[_GLgrenade, 10],
-				[_RifleMag, 3],
-				[_GLflare, 3],
-				[_GLsmoke, 2],
-				[_GLsmokeGreen, 2],
-				[_GLsmokeRed, 2],
+				[_RifleMag, 4],
 				[_LightGreen, 1],
 				_NightOptic,
-				_Nvg
+				_Nvg,
+				[_Shovel, 1]
 			]];
 	};
 	//AT Soldier
@@ -416,11 +399,11 @@ switch _this do {
 	case "G" : {
 		_items = _items+[_Helm];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Earplugs, 1],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
@@ -431,15 +414,16 @@ switch _this do {
 		_vests = [_VestH,[
 		        [_RifleMag, 2],
 				[_RifleMagT, 2],
-				[_Smokegrenade,2],
-				[_Grenade,2],
+				[_Smokegrenade, 2],
+				[_Grenade, 2],
 				_Nvg
 			]];
 		_rucks = 
 			[_RucksackRPG,[
 				[_RpgGrenade, 2],
 				[_RpgGrenadeO, 1],
-				[_RifleMag, 3]
+				[_RifleMag, 2],
+				[_Shovel, 1]
 			]];
 	};
 	//AT Soldier Assist.
@@ -447,11 +431,10 @@ switch _this do {
 	case "PG" : {
 		_items = _items+[_Helm];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
@@ -460,18 +443,18 @@ switch _this do {
 		_vests = 
 			[_VestH,(_vests select 1)+[
 				[_RifleMag, 2],
-				[_Smokegrenade, 3],
-				[_Grenade, 3],
+				[_RifleMagT, 2],
+				[_Smokegrenade, 2],
+				[_Grenade, 2],
 				_Nvg
 			]];
 		_rucks = 
 			[_RucksackRPG,[
-				[_RifleMag, 3],
-				[_RifleMagT, 2],
+				[_RifleMag, 4],
 				[_RpgGrenade, 1],
 				[_RpgGrenadeO, 1],
-				[_LightGreen, 1]
-
+				[_LightGreen, 1],
+				[_Shovel, 1]
 			]];
 	};
 	//Rifleman
@@ -480,11 +463,10 @@ switch _this do {
 		_items = _items+[_Helm];
 		_weapSecd = [_RPGO,[]];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
@@ -493,17 +475,18 @@ switch _this do {
 		_vests = 
 			[_Vest,(_vests select 1)+[
 				[_RifleMag, 2],
+				[_RifleMagT, 2],
 				[_Smokegrenade, 2],
 				[_Grenade, 2]
 			]];
 		_rucks = 
 			[_Rucksack,[
 				[_RifleMag, 4],
-				[_RifleMagT, 2],
 				[_Grenade, 2],
 				[_Smokegrenade, 2],
 				[_LightGreen, 1],
-				_Nvg
+				_Nvg,
+				[_Shovel, 1]
 			]];
 	};
 	//Crewman
@@ -512,11 +495,11 @@ switch _this do {
 		_items = _items+[_HelmC];
 		_weapPrim = [_RifleC,[_Collim,_DTK]];
 		_uniforms set [1, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Earplugs, 1],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
@@ -538,11 +521,11 @@ switch _this do {
 		_weapPrim = [_RifleC,[]];
 		_weapHand = [_Pistol,[]];
 		_uniforms = [_FormL, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Earplugs, 1],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
@@ -564,11 +547,11 @@ switch _this do {
 		_weapPrim = [_RifleC,[]];
 		_weapHand = [_Pistol,[]];
 		_uniforms = [_FormL, (_uniforms select 1)+[
-				[_BERUSHI, 1],
-				[_Bandage, 6],
-				[_BandageElastic, 3],
-				[_PackingBandage, 3],
-				[_Quikclot, 3],
+				[_Earplugs, 1],
+				[_Bandage, 4],
+				[_BandageElastic, 4],
+				[_PackingBandage, 4],
+				[_Quikclot, 4],
 				[_Morphine, 3],
 				[_Epinephrine, 1],
 				[_Tourniquet, 1],
