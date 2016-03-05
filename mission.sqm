@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5780.2808,88.157242,11320.655};
-		dir[]={0.74763739,-0.42842647,-0.5075087};
-		up[]={0.35449478,0.9035607,-0.24063605};
-		aside[]={-0.56166011,6.7055225e-008,-0.82741213};
+		pos[]={5838.186,88.157242,11339.162};
+		dir[]={0.50412303,-0.69606304,-0.51131189};
+		up[]={0.48869908,0.71797037,-0.49566707};
+		aside[]={-0.7121228,-1.3737008e-008,-0.70211142};
 	};
 };
 binarizationWanted=0;
@@ -9771,7 +9771,7 @@ class Mission
 			side="East";
 			class Entities
 			{
-				items=8;
+				items=7;
 				class Item0
 				{
 					dataType="Object";
@@ -10185,88 +10185,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5842.916,83.041443,11335.105};
-						angles[]={0,0.78539819,0};
-					};
-					side="East";
-					class Attributes
-					{
-						skill=0.60000002;
-						rank="CORPORAL";
-						init="[""RU_RD"",""S"",this] call bgr_fnc_ammoLoad;";
-						description="Разведчик";
-						isPlayable=1;
-					};
-					id=596;
-					type="rhs_vdv_rifleman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="ace_isHandcuffed";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5841.7837,83.041443,11336.237};
+						position[]={5842.915,83.122169,11335.104};
 						angles[]={0,0.78539819,0};
 					};
 					side="East";
@@ -10342,12 +10261,12 @@ class Mission
 						nAttributes=3;
 					};
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5840.6558,83.122169,11337.364};
+						position[]={5841.7871,83.202896,11336.231};
 						angles[]={0,0.78539819,0};
 					};
 					side="East";
