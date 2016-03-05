@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.017453292;
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
-	toggles=129;
+	toggles=1;
 	class ItemIDProvider
 	{
 		nextID=633;
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5838.186,88.157242,11339.162};
-		dir[]={0.50412303,-0.69606304,-0.51131189};
-		up[]={0.48869908,0.71797037,-0.49566707};
-		aside[]={-0.7121228,-1.3737008e-008,-0.70211142};
+		pos[]={5819.5093,88.157242,11356.089};
+		dir[]={0.93264049,-0.3174246,-0.17178251};
+		up[]={0.31220919,0.94826794,-0.057505149};
+		aside[]={-0.1811489,2.7019996e-007,-0.98349679};
 	};
 };
 binarizationWanted=0;
@@ -93,7 +93,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="[HA] Тренировочный полигон v1.97";
+		briefingName="[HA] Тренировочный полигон v1.98";
 		overviewText="Специально для Нашей Армии";
 		resistanceWest=0;
 		startWeather=0.29999998;
@@ -859,7 +859,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="0 = [this,0,0,[0,this,[[""Спешенное МСО"",""pics\MSO\03.paa""],[""БП МСВ вар1"",""pics\MSO\04.paa""],[""БП МСВ"",""pics\MSO\05.paa""],[""Командование МСВ"",""pics\MSO\06.jpg""]]]] execVM ""scripts\video_proektor.sqf""; this allowDamage false;";
+				init="0 = [this,0,0,[0,this,[[""Спешенное МСО"",""pics\MSO\03.paa""],[""БП МСВ вар1"",""pics\MSO\04.paa""],[""БП МСВ"",""pics\MSO\05.paa""],[""Командование МСВ"",""pics\MSO\06.jpg""]]]] execVM ""scripts\video_proektor.sqf""; this allowDamage false; null = [this] execVM ""scripts\remove_body.sqf"";";
 			};
 			id=43;
 			type="Land_Billboard_F";
@@ -6813,7 +6813,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="MAJOR";
+						rank="CAPTAIN";
 						init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Instructors""]; [""RU_DESERT"",""KR"",this] call bgr_fnc_ammoLoad;";
 						name="zeus";
 						description="Инструктор";
@@ -6896,7 +6896,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="MAJOR";
+						rank="CAPTAIN";
 						init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Инструкторы""]; [""RU_DESERT"",""KR"",this] call bgr_fnc_ammoLoad;";
 						name="zeus1";
 						description="Инструктор";
@@ -6978,7 +6978,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="MAJOR";
+						rank="CAPTAIN";
 						init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Инструкторы""]; [""RU_DESERT"",""KR"",this] call bgr_fnc_ammoLoad;";
 						name="zeus2";
 						description="Инструктор";
@@ -7060,7 +7060,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000002;
-						rank="MAJOR";
+						rank="CAPTAIN";
 						init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Инструкторы""]; [""RU_DESERT"",""KR"",this] call bgr_fnc_ammoLoad;";
 						name="zeus3";
 						description="Инструктор";
