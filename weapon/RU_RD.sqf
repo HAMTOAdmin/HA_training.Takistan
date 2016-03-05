@@ -12,34 +12,40 @@ _arr=[]; _ok = true;
 _W = 'ACE_Altimeter';
 _R = 'tf_fadak';
 
-_Form = 'rhs_uniform_gorka_r_y';
-_Vest = 'AFGHAN_V_6Sh92_TAN';
-_Panama = 'H_Booniehat_khk';
-_Helm = 'rhs_6b27m_ml';
-_Rucksack = 'bear_rhsusf_assault_eagleaiii_earth';
-_RadioDV = 'tf_mr3000_rhs';
-_Balc = 'rhs_balaclava';
-_Bandanna = 'H_Bandanna_sand';
-_Scarf ='G_Bandanna_tan';
+/*
+//Лесной вариант
+_Form = 'rhs_uniform_mvd_izlom';
+_Vest = 'rhs_6sh92_digi';
+_Panama = 'rhs_Booniehat_digi';
+_Helm = 'rhs_6b28';
+_Rucksack = 'B_Kitbag_rgr';
+_RadioDV = 'tf_mr3000_bwmod_tropen';
+*/
+
+//Пустынный вариант
+_Form = 'bear_rhs_uniform_desert_flora_sand';
+_Vest = 'bear_rhs_6sh92_desert_flora';
+_Panama = 'H_AFGANKA';
+_Helm = 'bear_rhs_6b27m_sand';
+_Rucksack = 'B_Kitbag_cbr';
+_RadioDV = 'tf_mr3000_bwmod_tropen';
 
 
-_Rifle = 'rhs_pzn_weap_akmn';
-_RifleGL = 'rhs_pzn_weap_akmn_gp25';
-_RifleMag = 'rhs_30Rnd_762x39mm';
-_RifleMagT = 'rhs_30Rnd_762x39mm';
-_Optic = 'rhs_acc_pso1m2';
+_Rifle = 'rhs_pzn_weap_aks74n';
+_RifleGL = 'rhs_pzn_weap_aks74n_gp25';
+_RifleMag = 'rhs_30Rnd_545x39_7N10_AK';
+_RifleMagT = 'rhs_30Rnd_545x39_AK_green';
+_Optic = 'rhs_acc_1p29';
 _NightOptic = 'rhs_acc_1pn93_1';
-_Collim = '';
-_PSO = 'rhs_acc_pso1m2';
+_Collim = 'rhs_acc_pkas';
+_RifleSilencer = 'rhs_acc_dtk4short';
 _DTK = 'rhs_acc_pbs1';
 
-_Pistol = 'RH_mak';
-_PistolMag = 'RH_8Rnd_9x18_Mak';
-_PistolSilencer = 'RH_pmsd';
-_PistolIR = 'RH_pmIR';
+_Pistol = 'hgun_Rook40_Fk';
+_PistolMag = '16Rnd_9x21_Mag';
+_PistolSilencer = 'muzzle_snds_L';
 
 _RpgO = 'rhs_weap_rpg26';
-_RpgOgr = 'rhs_rpg26_mag';
 
 _SniperRifle = 'rhs_weap_svdp_wd';
 _SniperOptics = 'rhs_acc_pso1m2';
@@ -49,10 +55,6 @@ _Grenade = 'rhs_mag_rgd5';
 _Smokegrenade = 'rhs_mag_rdg2_white';
 _SmokegrenadeRed = 'SmokeShellRed';
 _SmokegrenadeGreen = 'SmokeShellGreen';
-_Flashgrenade = 'rhs_mag_fakels';
-_Claymore = 'DemoCharge_Remote_Mag';
-_Apm = 'APERSTripMine_Wire_Mag';
-
 _GLgrenade = 'rhs_VOG25';
 _GLflare = 'rhs_VG40OP_white';
 _GLsmoke = 'rhs_GRD40_White';

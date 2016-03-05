@@ -32,7 +32,7 @@ _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
 _HelmL = 'rhs_zsh7a_mike';
 _Rucksack = 'bear_rhsusf_assault_eagleaiii_earth';
 _RucksackRPG = 'rhs_rpg_empty';
-_RadioDV = 'tf_mr3000_rhs';
+_RadioDV = 'tf_mr3000_bwmod_tropen';
 _Balc = 'rhs_balaclava';
 
 _Rifle = 'rhs_weap_ak74m';

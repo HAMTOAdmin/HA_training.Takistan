@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5813.4917,91.116592,11369.429};
-		dir[]={0.62071788,-0.39363623,-0.67810237};
-		up[]={0.26580396,0.9192521,-0.29037586};
-		aside[]={-0.73765045,9.1269612e-008,-0.67522687};
+		pos[]={5820.769,88.131126,11361.235};
+		dir[]={0.55556267,-0.54774183,-0.62561375};
+		up[]={0.36371508,0.83663279,-0.40957463};
+		aside[]={-0.74775118,7.6368451e-008,-0.66402441};
 	};
 };
 binarizationWanted=0;
@@ -176,7 +176,7 @@ class Mission
 			fillName="FDiagonal";
 			a=60;
 			b=200;
-			angle=224.45338;
+			angle=224.45334;
 			id=5;
 		};
 		class Item6
@@ -4422,7 +4422,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5822.4067,83.041443,11355.701};
+						position[]={5822.4072,83.041443,11355.701};
 						angles[]={0,2.3561945,0};
 					};
 					side="East";
@@ -4432,8 +4432,9 @@ class Mission
 						skill=0.60000002;
 						rank="MAJOR";
 						init="this setVariable[""bgr_tren_dolznost"",1]; this setGroupid [""Instructors""]; [""RU_DESERT"",""KR"",this] call bgr_fnc_ammoLoad;";
-						name="zeus_2";
+						name="zeus";
 						description="Инструктор";
+						isPlayer=1;
 						isPlayable=1;
 					};
 					id=433;
