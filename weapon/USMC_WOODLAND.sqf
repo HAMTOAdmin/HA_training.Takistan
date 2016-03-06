@@ -10,9 +10,9 @@ _arr=[]; _ok = true;
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
 
-_Form = 'rhs_uniform_FROG01_d';
-_FormO = 'rhs_uniform_FROG01_d';
-_FormL = 'rhs_uniform_FROG01_d';
+_Form = 'rhs_uniform_FROG01_wd';
+_FormO = 'rhs_uniform_FROG01_wd';
+_FormL = 'rhs_uniform_FROG01_wd';
 _VestKR = 'rhsusf_spc';
 _VestKV = 'rhsusf_spc_squadleader';
 _VestKO = 'rhsusf_spc_squadleader';
@@ -23,9 +23,9 @@ _VestH = 'rhsusf_spc_mg';
 _Vest = 'rhsusf_spc_rifleman';
 _VestC = 'rhsusf_spc_crewman';
 _VestL = 'rhsusf_spc';
-_Helm = ['rhsusf_lwh_helmet_marpatd','rhsusf_lwh_helmet_marpatd_ess','rhsusf_lwh_helmet_marpatd_headset'];
-_Cap = 'rhsusf_mich_bare_tan';
-_HelmC = ['rhsusf_cvc_helmet','rhsusf_cvc_ess'];
+_Helm = ['rhsusf_lwh_helmet_marpatwd','rhsusf_lwh_helmet_marpatwd_ess','rhsusf_lwh_helmet_marpatwd_headset'];
+_Cap = 'rhsusf_mich_bare';
+_HelmC = ['rhsusf_cvc_green_helmet','rhsusf_cvc_green_ess'];
 _HelmL = 'rhsusf_hgu56p';
 _Rucksack = 'rhsusf_assault_eagleaiii_coy';
 _RucksackRPG = 'rhsusf_assault_eagleaiii_coy';

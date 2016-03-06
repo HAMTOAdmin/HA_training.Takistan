@@ -19,7 +19,7 @@ _Vest = 'rhs_6sh92_digi';
 _Panama = 'rhs_Booniehat_digi';
 _Helm = 'rhs_6b28';
 _Rucksack = 'B_Kitbag_rgr';
-_RadioDV = 'tf_mr3000_bwmod_tropen';
+_RadioDV = 'tf_mr3000_rhs';
 */
 
 //Пустынный вариант
@@ -50,6 +50,7 @@ _RpgO = 'rhs_weap_rpg26';
 _SniperRifle = 'rhs_weap_svdp_wd';
 _SniperOptics = 'rhs_acc_pso1m2';
 _SniperRiflemag = 'rhs_10Rnd_762x54mmR_7N1';
+_SniperSilencer = 'rhs_acc_tgpv';
 
 _Grenade = 'rhs_mag_rgd5';
 _Smokegrenade = 'rhs_mag_rdg2_white';

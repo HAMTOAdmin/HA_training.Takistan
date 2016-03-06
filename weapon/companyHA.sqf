@@ -45,7 +45,7 @@ switch _this do {
 	case "KV" : {
 		_items = _items+[_Helm,_Binocular,_G];
 		_weapHand = [_Pistol,[]];
-		_uniforms = [_FormO, (_uniforms select 1)+[
+		_uniforms set [1, (_uniforms select 1)+[
 				[_Maptools, 1],
 				[_Bandage, 4],
 				[_BandageElastic, 4],

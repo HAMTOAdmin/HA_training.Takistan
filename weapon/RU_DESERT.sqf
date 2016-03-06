@@ -54,7 +54,6 @@ _Rpg = 'rhs_weap_rpg7';
 _RpgGrenade = 'rhs_rpg7_PG7VL_mag';
 _RpgGrenadeO = 'rhs_rpg7_OG7V_mag';
 _RpgO = 'rhs_weap_rpg26';
-_RpgOgr = 'rhs_rpg26_mag';
 _OpticRPG = 'rhs_acc_pgo7v';
 
 _MG = 'rhs_weap_pkp';

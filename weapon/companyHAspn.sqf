@@ -88,7 +88,7 @@ switch _this do {
 			]];
 		_rucks = 
 			[_Rucksack,[
-				[_RifleSilencer, 1],
+				[_SniperSilencer, 1],
 				[_Helm, 1],
 				[_SniperRiflemag, 4],
 				[_SmokegrenadeGreen, 1],
