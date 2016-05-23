@@ -10,65 +10,57 @@ _arr=[]; _ok = true;
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
 
-//_Form = 'rhs_uniform_vdv_emr_des';
-//_FormO = 'rhs_uniform_vdv_emr_des';
-
-_Form = 'TMK_uniform_ODKB';
-_FormO = 'TMK_uniform_ODKB';
-
-_FormL = 'bear_rhs_uniform_m88_sand';
+_Form = 'rhs_uniform_emr_patchless';
+_FormO = 'rhs_uniform_emr_patchless';
+_FormL = 'rhs_uniform_df15';
 _VestKR = 'rhs_6b23_digi';
-_VestKV = 'bear_rhs_6b23_desert_flora_6sh92_radio';
-_VestKO = 'bear_rhs_6b23_desert_flora_6sh92_headset_mapcase';
-_Vestm = 'bear_rhs_6b23_desert_flora_medic';
-_VestSN = 'bear_rhs_6b23_desert_flora_sniper';
-_VestSS = 'bear_rhs_6b23_desert_flora_6sh92_vog';
-_VestH = 'bear_rhs_6b23_desert_flora_6sh92';
-_Vest = 'bear_rhs_6b23_desert_flora_rifleman';
-_VestC = 'bear_rhs_6b23_desert_flora_crewofficer';
-_VestL = 'AFGHAN_V_6B23_TAN';
-_Helm = ['bear_rhs_6b27m_desert_flora'];
-_Cap = 'rhs_fieldcap_digi_des';
+_VestKV = ['rhs_6b23_6sh116','rhs_6b23_6sh116_flora'];
+_VestKO = ['rhs_6b23_6sh116_vog','rhs_6b23_6sh116_vog_flora'];
+_Vestm = 'rhs_6b23_digi_medic';
+_VestSN = ['rhs_6b23_6sh116','rhs_6b23_6sh116_flora'];
+_VestSS = ['rhs_6b23_6sh116_vog','rhs_6b23_6sh116_vog_flora'];
+_VestH = ['rhs_6b23_6sh116','rhs_6b23_6sh116_flora'];
+_Vest = ['rhs_6b23_6sh116','rhs_6b23_6sh116_flora'];
+_VestC = 'rhs_6b23_digi_crew';
+_VestL = 'rhs_6sh92';
+_Helm = 'rhs_6b7_1m_emr';
+_Cap = 'rhs_fieldcap_helm_digi';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
-_HelmL = 'rhs_zsh7a_mike';
-_Rucksack = 'bear_rhsusf_assault_eagleaiii_earth';
+_HelmL = ['rhs_zsh7a_mike','rhs_zsh7a_mike_alt'];
+_Rucksack = 'rhs_assault_umbts';
 _RucksackRPG = 'rhs_rpg_empty';
 _RadioDV = 'tf_mr3000_rhs';
-_Balc = ['rhs_balaclava','rhs_balaclava1_olive'];
-
 
 _Rifle = 'rhs_weap_ak74m';
 _RifleGL = 'rhs_weap_ak74m_gp25';
-_RifleC = 'rhs_weap_ak74m_folded';
-_RifleMag = 'rhs_30Rnd_545x39_AK';
+_RifleC = 'rhs_weap_aks74un';
+_RifleMag = 'rhs_30Rnd_545x39_7N10_AK';
 _RifleMagT = 'rhs_30Rnd_545x39_AK_green';
-_Optic = 'rhs_acc_1p29';
-_NightOptic = 'rhs_acc_1pn93_1';
-_Collim = 'rhs_acc_1p63';
-_DTK = 'rhs_acc_dtk';
-_RifleSilencer = 'rhs_acc_dtk4short';
+_RifleOptic = 'rhs_acc_1p29';
+_RifleOpticNignt = 'rhs_acc_1pn93_1';
+_Collim = '';
+_Dtk = 'rhs_acc_dtk';
+_DtkC = 'rhs_acc_pgs64_74u';
 
 _Pistol = 'rhs_weap_pya';
 _PistolMag = 'rhs_mag_9x19_17';
-_PistolSilencer = '';
 
 _Rpg = 'rhs_weap_rpg7';
 _RpgGrenade = 'rhs_rpg7_PG7VL_mag';
 _RpgGrenadeO = 'rhs_rpg7_OG7V_mag';
 _RpgO = 'rhs_weap_rpg26';
-_RpgOgr = 'rhs_rpg26_mag';
 _OpticRPG = 'rhs_acc_pgo7v';
+_OpticRPGnight = 'rhs_acc_1pn93_2';
 
 _MG = 'rhs_weap_pkp';
 _MGmag = 'rhs_100Rnd_762x54mmR_green';
-_MGoptic = 'rhs_acc_1p78';
 _AR = '';
 _ARmag = '';
+_MGOptic = 'rhs_acc_1p78';
 
 _SniperRifle = 'rhs_weap_svdp';
 _SniperOptics = 'rhs_acc_pso1m2';
 _SniperRiflemag = 'rhs_10Rnd_762x54mmR_7N1';
-_SniperSilencer = 'rhs_acc_tgpv';
 
 _Grenade = 'rhs_mag_rgd5';
 _Smokegrenade = 'rhs_mag_rdg2_white';

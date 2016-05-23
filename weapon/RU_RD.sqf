@@ -14,32 +14,34 @@ _R = 'tf_fadak';
 
 /*
 //Лесной вариант
-_Form = 'rhs_uniform_mvd_izlom';
-_Vest = 'rhs_6sh92_digi';
+_Form = ['KZS2_U_SUMRACK','KZS2_U_SUMRACK2'];
+_Vest = 'rhs_6b23_6sh116_od';
+_VestGL = 'rhs_6b23_6sh116_vog_od';
 _Panama = 'rhs_Booniehat_digi';
-_Helm = 'rhs_6b28';
+_Helm = 'rhs_6b7_1m_olive';
 _Rucksack = 'B_Kitbag_rgr';
 _RadioDV = 'tf_mr3000_rhs';
 */
 
 //Пустынный вариант
-_Form = 'bear_rhs_uniform_desert_flora_sand';
-_Vest = 'bear_rhs_6sh92_desert_flora';
+_Form = 'rhs_uniform_gorka_r_y';
+_Vest = 'rhs_6b23_6sh116_od';
+_VestGL = 'rhs_6b23_6sh116_vog_od';
 _Panama = 'H_AFGANKA';
-_Helm = 'bear_rhs_6b27m_sand';
+_Helm = 'rhs_6b7_1m_olive';
 _Rucksack = 'B_Kitbag_cbr';
 _RadioDV = 'tf_mr3000_bwmod_tropen';
 
 
-_Rifle = 'rhs_pzn_weap_aks74n';
-_RifleGL = 'rhs_pzn_weap_aks74n_gp25';
+_Rifle = 'rhs_weap_ak74m';
+_RifleGL = 'rhs_weap_ak74m_gp25';
 _RifleMag = 'rhs_30Rnd_545x39_7N10_AK';
 _RifleMagT = 'rhs_30Rnd_545x39_AK_green';
 _Optic = 'rhs_acc_1p29';
 _NightOptic = 'rhs_acc_1pn93_1';
 _Collim = 'rhs_acc_pkas';
 _RifleSilencer = 'rhs_acc_dtk4short';
-_DTK = 'rhs_acc_pbs1';
+_DTK = 'rhs_acc_dtk';
 
 _Pistol = 'hgun_Rook40_Fk';
 _PistolMag = '16Rnd_9x21_Mag';

@@ -56,8 +56,7 @@ switch _this do {
 				[_RifleMag, 4],
 				[_SmokegrenadeGreen, 1],
 				[_SmokegrenadeRed, 1],
-				[_CableTie, 2],
-				[_Shovel, 1]
+				[_CableTie, 2]
 			]];
 	};
 
@@ -82,8 +81,8 @@ switch _this do {
 			]];
 		_vests = 
 			[_Vest,[
-				[_Grenade, 3],
-				[_Smokegrenade, 3],
+				[_Grenade, 2],
+				[_Smokegrenade, 2],
 				[_SniperRiflemag, 4]
 			]];
 		_rucks = 
@@ -96,8 +95,7 @@ switch _this do {
 				[_TripwireMine, 2],
 				[_CableTie, 2],
 				_NightOptic,
-				_Nvg,
-				[_Shovel, 1]
+				_Nvg
 			]];
 	};
 	
@@ -121,8 +119,8 @@ switch _this do {
 		]];
 		_vests = 
 			[_Vest,(_vests select 1)+[
-				[_Grenade, 3],
-				[_Smokegrenade, 3],
+				[_Grenade, 2],
+				[_Smokegrenade, 2],
 				[_RifleMag, 2],
 				[_RifleMagT, 2]
 			]];
@@ -142,8 +140,7 @@ switch _this do {
 				[_SalineBag500, 6],
 				[_PersonalAidKit, 1],
 				[_SurgicalKit, 1],
-				_Nvg,
-				[_Shovel, 1]
+				_Nvg
 			]];
 	};
 	
@@ -168,8 +165,8 @@ switch _this do {
 				]];
 		_vests = 
 			[_Vest,(_vests select 1)+[
-				[_Grenade, 3],
-				[_Smokegrenade, 3],
+				[_Grenade, 2],
+				[_Smokegrenade, 2],
 				[_RifleMag, 2],
 				[_RifleMagT, 2]
 			]];
@@ -183,8 +180,7 @@ switch _this do {
 				[_SmokegrenadeRed, 1],
 				[_CableTie, 2],
 				_NightOptic,
-				_Nvg,
-				[_Shovel, 1]
+				_Nvg
 			]];
 	};
 
@@ -209,8 +205,8 @@ switch _this do {
 			]];
 		_vests = 
 			[_Vest,(_vests select 1)+[
-				[_Grenade, 3],
-				[_Smokegrenade, 3],
+				[_Grenade, 2],
+				[_Smokegrenade, 2],
 				[_RifleMag, 2],
 				[_RifleMagT, 2]
 			]];
@@ -222,8 +218,7 @@ switch _this do {
 				[_SmokegrenadeGreen, 1],
 				[_SmokegrenadeRed, 1],
 				[_CableTie, 2],
-				_Nvg,
-				[_Shovel, 1]
+				_Nvg
 			]];
 	};
 	
@@ -247,8 +242,8 @@ switch _this do {
 			]];
 		_vests = 
 			[_Vest,(_vests select 1)+[
-				[_Grenade, 3],
-				[_Smokegrenade, 3],
+				[_Grenade, 2],
+				[_Smokegrenade, 2],
 				[_RifleMag, 2],
 				[_RifleMagT, 2]
 			]];
@@ -263,8 +258,7 @@ switch _this do {
 				[_CableTie, 2],
 				[_Remote, 1],
                 [_Wirecutter, 1],
-				_Nvg,
-				[_Shovel, 1]
+				_Nvg
 			]];
 	};	
 	

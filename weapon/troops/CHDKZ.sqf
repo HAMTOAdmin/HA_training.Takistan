@@ -1,7 +1,7 @@
 #include "DEFAULT.sqf"
 _arr=[]; _ok = true;
 //17.05.2016 (дата)
-//NAPA (войска)
+//CHDKZ (войска)
 
 // ====================================================================================
 //weapon
@@ -26,7 +26,7 @@ _VestL = 'rhsgref_otv_khaki';
 _Helm = ['rhs_balaclava','G_Balaclava_oli','G_Balaclava_blk'];
 _Cap = 'H_Cap_usblack';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
-_HelmL = ['rhs_zsh7a_mike_green_alt','rhs_zsh7a_mike_green'];
+_HelmL = 'rhs_zsh7a_mike';
 _Rucksack = 'B_Kitbag_rgr';
 _RucksackRPG = 'B_Kitbag_rgr';
 _RadioDV = 'tf_mr3000_bwmod';
@@ -37,7 +37,7 @@ _RifleC = 'rhs_weap_m4a1_carryhandle';
 _RifleMag = 'rhs_mag_30Rnd_556x45_M855A1_Stanag';
 _RifleMagT = 'rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red';
 _RifleOptic = 'rhsusf_acc_ACOG';
-_RifleOpticNignt = 'rhsusf_acc_ACOG_anpvs27';
+_RifleOpticNignt = 'rhsusf_acc_ACOG_anpvs271';
 _Collim = '';
 _Dtk = '';
 _DtkC = '';
@@ -52,11 +52,11 @@ _RpgO = 'rhs_weap_m72a7';
 _OpticRPG = 'rhs_acc_pgo7v';
 _OpticRPGnight = 'rhs_acc_1pn93_2';
 
-_MG = 'rhs_weap_m240G';
-_MGmag = 'rhsusf_50Rnd_762x51_m82_blank';
+_MG = 'rhs_weap_pkp';
+_MGmag = 'rhs_100Rnd_762x54mmR_green';
 _AR = '';
 _ARmag = '';
-_MGoptic = 'rhsusf_acc_ELCAN';
+_MGOptic = 'rhs_acc_1p78';
 
 _SniperRifle = 'rhs_weap_m76';
 _SniperOptics = 'rhs_acc_pso1m2';
