@@ -26,12 +26,7 @@ if (leader player == player) then {
 
 };
 */
-if (player getVariable["bgr_tren_dolznost",0] == 1) then {
-	//0 = [["Спектатор(выход на F10)", "scripts\ace_spect.sqf"]] call CBA_fnc_addPlayerAction;
-        0 = [["<t color='#00ff00'>Наблюдение</t>", "spectator.sqf"]] call CBA_fnc_addPlayerAction;
-	0 = [["Zeus(импорт/экспорт)", clientFolder+"\ZeusSaver_Open.sqf"]] call CBA_fnc_addPlayerAction;
-	
-};
+
 
 if (player getVariable["bgr_tren_dolznost",0] > 0) then {
 
@@ -50,7 +45,46 @@ if (player getVariable["bgr_tren_dolznost",0] > 0) then {
 	};
 */
 
-	0 = [["Меню", "scripts\Main_Menu\MM_Open.sqf"]] call CBA_fnc_addPlayerAction;
+// 0 = [["Меню", "scripts\Main_Menu\MM_Open.sqf"]] call CBA_fnc_addPlayerAction;
+
+
+_statement = {
+    [] execVM "scripts\Main_Menu\MM_Open.sqf";
 };
+
+_action = ["HA_Tren","Тренировка","",{hint '';},{true}] call ace_interact_menu_fnc_createAction;
+[ace_player, 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+_action = ["HA_Menu","Меню","",_statement,{true}] call ace_interact_menu_fnc_createAction;
+[ace_player, 1, ["ACE_SelfActions","HA_Tren"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+
+};
+
+
+
+if (player getVariable["bgr_tren_dolznost",0] == 1) then {
+  //0 = [["Спектатор(выход на F10)", "scripts\ace_spect.sqf"]] call CBA_fnc_addPlayerAction;
+  //0 = [["<t color='#00ff00'>Наблюдение</t>", "spectator.sqf"]] call CBA_fnc_addPlayerAction;
+  //0 = [["Zeus(импорт/экспорт)", clientFolder+"\ZeusSaver_Open.sqf"]] call CBA_fnc_addPlayerAction;
+
+  _spectator = {
+      [] execVM "spectator.sqf";
+  };
+
+  _zeus_imex = {
+      _zpath = clientFolder+"\ZeusSaver_Open.sqf";
+      [] execVM _zpath;
+      //hint format["-%1-",_zpath];
+  };
+
+  _action = ["HA_Spectator","Наблюдение","",_spectator,{true}] call ace_interact_menu_fnc_createAction;
+  [ace_player, 1, ["ACE_SelfActions","HA_Tren"], _action] call ace_interact_menu_fnc_addActionToObject;
+
+  _action = ["HA_Zeus_Import","Zeus(импорт/экспорт)","",_zeus_imex,{true}] call ace_interact_menu_fnc_createAction;
+  [ace_player, 1, ["ACE_SelfActions","HA_Tren"], _action] call ace_interact_menu_fnc_addActionToObject;
+	
+};
+
 
 player switchMove "AmovPercMstpSlowWrflDnon";  //lower players weapon
