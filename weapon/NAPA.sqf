@@ -52,6 +52,8 @@ _RpgO = 'rhs_weap_m72a7';
 _OpticRPG = 'rhs_acc_pgo7v';
 _OpticRPGnight = 'rhs_acc_1pn93_2';
 
+_NightOptic = 'optic_NVS';
+
 _MG = 'rhs_weap_m240G';
 _MGmag = 'rhsusf_50Rnd_762x51_m82_blank';
 _AR = '';

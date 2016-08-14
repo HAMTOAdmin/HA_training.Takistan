@@ -27,7 +27,8 @@ if (leader player == player) then {
 };
 */
 if (player getVariable["bgr_tren_dolznost",0] == 1) then {
-	0 = [["Спектатор(выход на F10)", "scripts\ace_spect.sqf"]] call CBA_fnc_addPlayerAction;
+	//0 = [["Спектатор(выход на F10)", "scripts\ace_spect.sqf"]] call CBA_fnc_addPlayerAction;
+        0 = [["<t color='#00ff00'>Наблюдение</t>", "spectator.sqf"]] call CBA_fnc_addPlayerAction;
 	0 = [["Zeus(импорт/экспорт)", clientFolder+"\ZeusSaver_Open.sqf"]] call CBA_fnc_addPlayerAction;
 	
 };

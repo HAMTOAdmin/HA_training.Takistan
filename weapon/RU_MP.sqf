@@ -10,6 +10,10 @@ _arr=[]; _ok = true;
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
 
+//_Form = 'rhs_uniform_vdv_emr_des';
+//_FormO = 'rhs_uniform_vdv_emr_des';
+
+
 _Form = 'rhs_uniform_emr_des_patchless';
 _FormO = 'rhs_uniform_emr_des_patchless';
 _FormL = 'rhs_uniform_df15_tan';
@@ -30,38 +34,44 @@ _HelmL = ['rhs_zsh7a_mike_green_alt','rhs_zsh7a_mike_green'];
 _Rucksack = 'rhs_assault_umbts';
 _RucksackRPG = 'rhs_rpg_empty';
 _RadioDV = 'tf_mr3000_rhs';
+_Balc = ['rhs_balaclava','rhs_balaclava1_olive'];
+
+
 
 _Rifle = 'rhs_weap_ak74m';
 _RifleGL = 'rhs_weap_ak74m_gp25';
-_RifleC = 'rhs_weap_aks74un';
-_RifleMag = 'rhs_30Rnd_545x39_7N10_AK';
+_RifleC = 'rhs_weap_ak74m_folded';
+_RifleMag = 'rhs_30Rnd_545x39_AK';
 _RifleMagT = 'rhs_30Rnd_545x39_AK_green';
+_Optic = 'rhs_acc_1p29';
 _RifleOptic = 'rhs_acc_1p29';
-_RifleOpticNignt = 'rhs_acc_1pn93_1';
-_Collim = '';
-_Dtk = 'rhs_acc_dtk';
-_DtkC = 'rhs_acc_pgs64_74u';
+_NightOptic = 'rhs_acc_1pn93_1';
+_Collim = 'rhs_acc_1p63';
+_DTK = 'rhs_acc_dtk';
+_RifleSilencer = 'rhs_acc_dtk4short';
 
 _Pistol = 'rhs_weap_pya';
 _PistolMag = 'rhs_mag_9x19_17';
+_PistolSilencer = '';
 
 _Rpg = 'rhs_weap_rpg7';
 _RpgGrenade = 'rhs_rpg7_PG7VL_mag';
 _RpgGrenadeO = 'rhs_rpg7_OG7V_mag';
 _RpgO = 'rhs_weap_rpg26';
+_RpgOgr = 'rhs_rpg26_mag';
 _OpticRPG = 'rhs_acc_pgo7v';
 _OpticRPGnight = 'rhs_acc_1pn93_2';
 
 _MG = 'rhs_weap_pkp';
 _MGmag = 'rhs_100Rnd_762x54mmR_green';
+_MGoptic = 'rhs_acc_1p78';
 _AR = '';
 _ARmag = '';
-_MGOptic = 'rhs_acc_1p78';
 
 _SniperRifle = 'rhs_weap_svdp';
 _SniperOptics = 'rhs_acc_pso1m2';
 _SniperRiflemag = 'rhs_10Rnd_762x54mmR_7N1';
-_NightOptic='rhs_acc_pso1m2';
+_SniperSilencer = 'rhs_acc_tgpv';
 
 _Grenade = 'rhs_mag_rgd5';
 _Smokegrenade = 'rhs_mag_rdg2_white';

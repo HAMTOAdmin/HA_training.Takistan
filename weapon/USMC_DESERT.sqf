@@ -41,6 +41,9 @@ _RifleOpticNignt = 'rhsusf_acc_ACOG_anpvs27';
 _Collim = 'rhsusf_acc_compm4';
 _DTK = '';
 _DtkC = '';
+_NightOptic = 'optic_NVS';
+
+
 
 _Pistol = 'rhsusf_weap_m1911a1';
 _PistolMag = 'rhsusf_mag_7x45acp_MHP';
