@@ -3,6 +3,7 @@ _side = side player;
 
 #include "CREDITS.sqf"
 #include "groups.sqf"
+#include "Tables.sqf"
 
 player createDiaryRecord ["diary", ["Наша Армия [СССР]","
 <br/><br/>

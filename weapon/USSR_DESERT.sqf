@@ -1,7 +1,7 @@
 #include "DEFAULT.sqf"
 _arr=[]; _ok = true;
-//17.08.2015 (дата)
-//ВС РФ (войска)
+//01.09.2016 (дата)
+//СВ СССР (войска)
 
 // ====================================================================================
 //weapon
@@ -10,30 +10,30 @@ _arr=[]; _ok = true;
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
 
-_Form = 'rhs_uniform_emr_patchless';
-_FormO = 'rhs_uniform_emr_patchless';
-_FormL = 'rhs_uniform_df15';
-_VestKR = 'rhs_6b23_digi';
-_VestKV = ['rhs_6b23_6sh116','rhs_6b23_6sh116_flora'];
-_VestKO = ['rhs_6b23_6sh116_vog','rhs_6b23_6sh116_vog_flora'];
-_Vestm = 'rhs_6b23_digi_medic';
-_VestSN = ['rhs_6b23_6sh116','rhs_6b23_6sh116_flora'];
-_VestSS = ['rhs_6b23_6sh116_vog','rhs_6b23_6sh116_vog_flora'];
-_VestH = ['rhs_6b23_6sh116','rhs_6b23_6sh116_flora'];
-_Vest = ['rhs_6b23_6sh116','rhs_6b23_6sh116_flora'];
-_VestC = 'rhs_6b23_digi_crew';
+_Form = 'rhs_uniform_m88_patchless';
+_FormO = 'rhs_uniform_m88_patchless';
+_FormL = 'rhsgref_uniform_ttsko_urban';
+_VestKR = '6B3_RHS';
+_VestKV = '6B3_RHS';
+_VestKO = '6B3_RHS_GP';
+_Vestm = '6B3_RHS_MED';
+_VestSN = '6B3_RHS_SVD';
+_VestSS = '6B3_RHS_GP';
+_VestH = '6B3_RHS_RF';
+_Vest = '6B3_RHS_RF';
+_VestC = '6B3_RHS';
 _VestL = 'rhs_6sh92';
-_Helm = 'rhs_6b7_1m_emr';
-_Cap = 'rhs_fieldcap_helm_digi';
+_Helm = 'rhs_ssh68';
+_Cap = 'rhs_fieldcap_khk';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
 _HelmL = ['rhs_zsh7a_mike','rhs_zsh7a_mike_alt'];
-_Rucksack = 'rhs_assault_umbts';
+_Rucksack = 'rhs_sidor';
 _RucksackRPG = 'rhs_rpg_empty';
 _RadioDV = 'tf_mr3000_rhs';
 
-_Rifle = 'rhs_weap_ak74m';
-_RifleGL = 'rhs_weap_ak74m_gp25';
-_RifleC = 'rhs_weap_aks74un';
+_Rifle = 'rhs_weap_ak74m_fullplum';
+_RifleGL = 'rhs_weap_ak74m_fullplum_gp25';
+_RifleC = 'rhs_weap_aks74u';
 _RifleMag = 'rhs_30Rnd_545x39_7N10_AK';
 _RifleMagT = 'rhs_30Rnd_545x39_AK_green';
 _RifleOptic = 'rhs_acc_1p29';

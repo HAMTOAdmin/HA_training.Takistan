@@ -10,9 +10,9 @@ _arr=[]; _ok = true;
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
 
-_Form = 'rhs_uniform_emr_des_patchless';
-_FormO = 'rhs_uniform_emr_des_patchless';
-_FormL = 'rhs_uniform_df15_tan';
+_Form = 'rhs_uniform_emr_patchless';
+_FormO = 'rhs_uniform_emr_patchless';
+_FormL = 'rhs_uniform_df15';
 _VestKR = 'rhs_6b23_digi_crew';
 _VestKV = 'rhs_6b23_6sh116';
 _VestKO = 'rhs_6b23_6sh116_vog';
@@ -26,7 +26,7 @@ _VestL = 'rhs_6sh92';
 _Helm = ['rhs_6b7_1m_emr','rhs_6b7_1m_emr_ess'];
 _Cap = 'rhs_fieldcap_digi2';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
-_HelmL = ['rhs_zsh7a_mike_green','rhs_zsh7a_mike_green_alt'];
+_HelmL = ['rhs_zsh7a_mike','rhs_zsh7a_mike_alt'];
 _Rucksack = 'rhs_assault_umbts';
 _RucksackRPG = 'rhs_rpg_empty';
 _RadioDV = 'tf_mr3000_rhs';

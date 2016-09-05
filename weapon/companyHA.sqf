@@ -92,6 +92,33 @@ switch _this do {
 				_NightOptic
 			]];
 	};
+
+
+	//Radio-operator
+	//Радист
+	case "R" : {
+		_items = _items+[_Helm,_Binocular,_G];
+		_weapHand = [_Pistol,[]];
+		_uniforms set [1, (_uniforms select 1)+[
+				_Maptools,
+				_Flashlight,
+				[_RifleMag, 1]
+			]];	
+		_vests = 
+			[_VestKV,(_vests select 1)+[
+				[_RifleMag, 2],
+				[_RifleMagT, 2],
+				[_Grenade, 2],
+				[_Smokegrenade, 2]
+			]];
+		_rucks = 
+			[_RadioDV,[
+				[_RifleMag, 4],
+				[_PistolMag, 2],
+				_Nvg
+			]];
+	};
+
 	
 	//Medic
 	//санитар
@@ -353,6 +380,7 @@ switch _this do {
 				[_Smokegrenade, 1],
 				_Nvg
 			]];
+		_rucks = ["ACE_NonSteerableParachute",[]];
 	};
 	
 	//Jet Pilot
@@ -371,6 +399,7 @@ switch _this do {
 				[_Smokegrenade, 1],
 				_Nvg
 			]];
+		_rucks = ["ACE_NonSteerableParachute",[]];
 	};	
 ///////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 //////////////DO NOT CHANGE AFTER THIS LINE\\\\\\\\\\\\

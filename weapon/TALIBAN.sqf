@@ -1,7 +1,7 @@
 #include "DEFAULT.sqf"
 _arr=[]; _ok = true;
-//01.09.2016 (дата)
-//NAPA (войска)
+//05.09.2016 (дата)
+//TALIBAN (войска)
 
 // ====================================================================================
 //weapon
@@ -10,8 +10,8 @@ _arr=[]; _ok = true;
 //change NVG to FlashLight
 //_Nvg="acc_flashlight";
 
-_Form = ['rhsgref_uniform_flecktarn','rhsgref_uniform_woodland','rhsgref_uniform_woodland_olive'];
-_FormO = 'rhsgref_uniform_woodland';
+_Form = ['LOP_U_AM_Fatigue_01','LOP_U_AM_Fatigue_02','LOP_U_AM_Fatigue_03','LOP_U_AM_Fatigue_04'];
+_FormO = 'LOP_U_AM_Fatigue_01';
 _FormL = 'rhsgref_uniform_flecktarn';
 _VestKR = 'rhsgref_otv_khaki';
 _VestKV = 'rhsgref_otv_khaki';
@@ -23,8 +23,8 @@ _VestH = 'rhsgref_otv_khaki';
 _Vest = 'rhsgref_otv_khaki';
 _VestC = 'rhsgref_otv_khaki';
 _VestL = 'rhsgref_otv_khaki';
-_Helm = ['rhs_balaclava','G_Balaclava_oli','G_Balaclava_blk'];
-_Cap = 'usm_bdu_cap_portliz';
+_Helm = ['LOP_H_Turban_mask','LOP_H_Shemag_BLK','H_Shemag_olive'];
+_Cap = 'LOP_H_Turban_mask';
 _HelmC = ['rhs_tsh4','rhs_tsh4_ess'];
 _HelmL = ['rhs_zsh7a_mike_green_alt','rhs_zsh7a_mike_green'];
 _Rucksack = 'B_Kitbag_rgr';

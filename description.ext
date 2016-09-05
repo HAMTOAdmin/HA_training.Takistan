@@ -25,6 +25,7 @@ class CfgFunctions{
 onLoadName = "Наша Армия [СССР]";
 author = "Special for www.our-army.su";
 onLoadMission = "Тренировочный полигон Нашей Армии [CCCP]";
+briefingName="[HA] Тренировочный полигон v2.1 (А)";
 
 class Params 
 { 
@@ -159,8 +160,8 @@ class RscText
 	idc = -1;
 	type =  CT_STATIC ;  // defined constant
 	style = ST_CENTER;  // defined constant
-	colorText[] = { 0, 0, 0, 1 };
-	colorBackground[] = {0.7, 0.7, 0.7, 1};
+	colorText[] = { 0.57, 0, 0, 1 };
+	colorBackground[] = {0.86, 0.72, 0.58, 1};
 	font = FontM;  // defined constant
 	sizeEx = 0.03;
 	x = 0; y = 0;
@@ -173,7 +174,7 @@ class RscBgFrame
 	type=CT_STATIC;
 	idc=-1;
 	style=ST_FRAME;
-	colorBackground[]={0, 0, 0, 1};
+	colorBackground[]={0.68, 0.51, 0.35, 1};
 	colorText[]={0, 0, 0, 1};
 	font=FontM;
 	SizeEX=0.025;
@@ -182,7 +183,7 @@ class RscBgFrame
 
 class RscBackground
 {
-	colorBackground[]={0.7, 0.7, 0.7, 1};
+	colorBackground[]={0.86, 0.72, 0.58, 1};
 	text="";
 	type=CT_STATIC;
 	idc=-1;
@@ -208,10 +209,10 @@ class RscButton
 
 	colorActive[]={0, 0, 0, 0};
 	colorDisabled[]={0, 0, 0, 0.1};
-	colorBackground[]={0.5,0.5,0.5,1};
-	colorBackgroundActive[]={0,0.7,0,1};
+	colorBackground[]={0.48,0.21,0.01,1};
+	colorBackgroundActive[]={0.8,0,0,1};
 	colorBackgroundDisabled[]={0,0,0,0.7};
-	colorFocused[]={0.7,0.7,0,1};
+	colorFocused[]={0.57,0.32,0.13,1};
 	colorShadow[]={1, 1, 1, 0.1};
 	colorBorder[]={0, 0, 0, 0.1};
 
@@ -222,12 +223,12 @@ class RscButton
 	borderSize=0;
 
 	style=ST_LEFT;
-	colorText[]={0, 0, 0, 1};
+	colorText[]={1, 1, 1, 1};
 	font=FontM;
-	sizeEx=0.025;
+	sizeEx=0.035;
 
 	w=0.15;
-	h=0.03;
+	h=0.035;
 	x=0.2;
 };
 
@@ -242,10 +243,10 @@ class RscCombo
 	x = 0.365;
 
 	font = FontHTML;
-	sizeEx = 0.025;
+	sizeEx = 0.035;
 
-	rowHeight = 0.005;
-	wholeHeight = 6 * 0.03; // 3 lines to display + 1 line of the unelapsed control
+	rowHeight = 0.01;
+	wholeHeight = 6 * 0.05; // 3 lines to display + 1 line of the unelapsed control
 
 	color[] = {1,1,1,1};
 	colorActive[] = {0, 0, 0, 1};
@@ -254,7 +255,7 @@ class RscCombo
 	colorText[] = {0,0,0,1};
 	colorBackground[] = {1,1,1,1};
 	colorSelect[] = {0,0,0,1};
-	colorSelectBackground[] = {0,0.7,0,1};
+	colorSelectBackground[] = {0.95,0.94,0.48,1};
 	colorScrollbar[] = {0.023529, 0, 0.0313725, 1};
 	arrowFull = "\A3\ui_f\data\gui\cfg\scrollbar\arrowFull_ca.paa";
 	arrowEmpty = "\A3\ui_f\data\gui\cfg\scrollbar\arrowEmpty_ca.paa";
@@ -329,5 +330,23 @@ class RscListbox
 		border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
 	};
 };
+
+ class MenuPicture
+  {
+         access = 0;
+         type = CT_STATIC;
+         idc = -1;
+         style = 48;//ST_PICTURE
+         colorBackground[] = {0,0,0,0};
+         colorText[] = {1,1,1,1};
+         font = "TahomaB";
+         sizeEx = 0;
+         lineSpacing = 0;
+         text = "";
+         fixedWidth = 0;
+         shadow = 0;
+
+  };
+
 
 #include "scripts\Main_Menu\Main_Menu.hpp"
