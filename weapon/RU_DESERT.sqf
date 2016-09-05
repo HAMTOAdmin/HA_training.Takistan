@@ -61,6 +61,7 @@ _MGOptic = 'rhs_acc_1p78';
 _SniperRifle = 'rhs_weap_svdp';
 _SniperOptics = 'rhs_acc_pso1m2';
 _SniperRiflemag = 'rhs_10Rnd_762x54mmR_7N1';
+_NightOptic='rhs_acc_pso1m2';
 
 _Grenade = 'rhs_mag_rgd5';
 _Smokegrenade = 'rhs_mag_rdg2_white';

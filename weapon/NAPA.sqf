@@ -52,8 +52,15 @@ _RpgGrenadeO = 'rhs_rpg7_OG7V_mag';
 _OpticRPG = 'rhs_acc_pgo7v';
 _OpticRPGnight = 'rhs_acc_1pn93_2';
 
+<<<<<<< HEAD
 _MG = 'rhs_weap_m249_pip_L_para';
 _MGmag = 'rhs_200rnd_556x45_M_SAW';
+=======
+_NightOptic = 'optic_NVS';
+
+_MG = 'rhs_weap_m240G';
+_MGmag = 'rhsusf_50Rnd_762x51_m82_blank';
+>>>>>>> origin/master
 _AR = '';
 _ARmag = '';
 _MGoptic = 'rhsusf_acc_ELCAN';

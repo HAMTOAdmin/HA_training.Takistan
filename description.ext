@@ -25,7 +25,11 @@ class CfgFunctions{
 onLoadName = "Наша Армия [СССР]";
 author = "Special for www.our-army.su";
 onLoadMission = "Тренировочный полигон Нашей Армии [CCCP]";
+<<<<<<< HEAD
 briefingName="[HA] Тренировочный полигон v2.1 (А)";
+=======
+briefingName="[HA] Тренировочный полигон v2.1";
+>>>>>>> origin/master
 
 class Params 
 { 
